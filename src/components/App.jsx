@@ -1,16 +1,21 @@
+import { TypeAnimation } from 'react-type-animation';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <TypeAnimation
+        sequence={[
+          "I'm a Developer",
+          1000,
+          "I'm a Writer",
+          1000,
+          "I'm a Designer",
+          1000,
+        ]}
+        speed={50}
+        repeat={Infinity}
+        style={{ fontSize: '2em' }}
+      />
     </div>
   );
 };
