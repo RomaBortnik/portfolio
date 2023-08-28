@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7acaea2f.css",
-    "main.js": "/portfolio/static/js/main.e4f5909b.js",
+    "main.css": "/portfolio/static/css/main.04d30e3e.css",
+    "main.js": "/portfolio/static/js/main.5efb0dcb.js",
+    "static/media/AnyConv.com__Roboto-Bold.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Bold.36621534150f8386a36b.woff2",
+    "static/media/AnyConv.com__Roboto-Medium.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Medium.4e1a262de8218277f21e.woff2",
+    "static/media/AnyConv.com__Roboto-Regular.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Regular.936f5f36409873f2d515.woff2",
+    "static/media/AnyConv.com__Roboto-Bold.woff": "/portfolio/static/media/AnyConv.com__Roboto-Bold.1a54400c5ab17a83610c.woff",
+    "static/media/AnyConv.com__Roboto-Regular.woff": "/portfolio/static/media/AnyConv.com__Roboto-Regular.f2478ee3ee15376b99d1.woff",
+    "static/media/AnyConv.com__Roboto-Medium.woff": "/portfolio/static/media/AnyConv.com__Roboto-Medium.4555e012bf433035fe9b.woff",
     "index.html": "/portfolio/index.html",
-    "main.7acaea2f.css.map": "/portfolio/static/css/main.7acaea2f.css.map",
-    "main.e4f5909b.js.map": "/portfolio/static/js/main.e4f5909b.js.map"
+    "main.04d30e3e.css.map": "/portfolio/static/css/main.04d30e3e.css.map",
+    "main.5efb0dcb.js.map": "/portfolio/static/js/main.5efb0dcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.e4f5909b.js"
+    "static/css/main.04d30e3e.css",
+    "static/js/main.5efb0dcb.js"
   ]
 }
