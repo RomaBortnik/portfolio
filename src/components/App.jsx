@@ -2,10 +2,12 @@ import Reveal from './Reveal';
 import TextAnimation from './TextAnimation/TextAnimation';
 import HeroAnimation from './HeroAnimation';
 import heroAnimatedText from 'utils/heroAnimatedText';
+import ThemeSwitcher from './ThemeSwitcher';
 
 export const App = () => {
   return (
     <>
+      <ThemeSwitcher></ThemeSwitcher>
       <Reveal>
         <div
           style={{
