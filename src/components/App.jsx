@@ -5,19 +5,21 @@ import heroAnimatedText from 'utils/heroAnimatedText';
 
 export const App = () => {
   return (
-    <Reveal>
-      <div
-        style={{
-          display: 'flex',
-          paddingLeft: 120,
-        }}
-      >
-        <div style={{ marginTop: 200 }}>
-          <p style={{ fontSize: '64px' }}>Hello, Kotuuuuuzka</p>
-          <TextAnimation text={heroAnimatedText} fontSize={48} />
+    <>
+      <Reveal>
+        <div
+          style={{
+            display: 'flex',
+            paddingLeft: 120,
+          }}
+        >
+          <div style={{ marginTop: 200 }}>
+            <p style={{ fontSize: '64px' }}>Hello, Kotuuuuuzka</p>
+            <TextAnimation text={heroAnimatedText} fontSize={48} />
+          </div>
+          <HeroAnimation />
         </div>
-        <HeroAnimation />
-      </div>
-    </Reveal>
+      </Reveal>
+    </>
   );
 };

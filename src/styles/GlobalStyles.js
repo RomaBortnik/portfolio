@@ -32,15 +32,21 @@ export const GlobalStyles = css`
       url('${woff2RobotoBold}') format('woff2');
   }
 
-  html {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+  }
+
+  html {
     scroll-behavior: smooth;
     width: 100vw;
   }
 
   body {
     width: 100vw;
-    margin: 0;
     font-family: 'Roboto', serif;
     min-height: 100vh;
 
@@ -48,22 +54,9 @@ export const GlobalStyles = css`
     overflow: hidden;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-    padding: 0;
-  }
-
   ul,
   ol {
     list-style: none;
-    padding-left: 0;
-    margin: 0;
   }
 
   img {
@@ -73,7 +66,6 @@ export const GlobalStyles = css`
   }
 
   button {
-    padding: 0;
     border: none;
     font: inherit;
     color: inherit;
