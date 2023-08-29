@@ -44,6 +44,10 @@
   color: #501a96;
 }
 
-.icon .fa-moon {
-  background-color: #000;
+.icon.fa-moon {
+  color: black !important;
+}
+
+.icon.fa-sun {
+  color: black !important;
 }
