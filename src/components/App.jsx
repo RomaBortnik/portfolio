@@ -12,7 +12,7 @@ export const App = () => {
           paddingLeft: 120,
         }}
       >
-        <div style={{ paddingTop: 200 }}>
+        <div style={{ marginTop: 200 }}>
           <p style={{ fontSize: '64px' }}>Hello, Kotuuuuuzka</p>
           <TextAnimation text={heroAnimatedText} fontSize={48} />
         </div>
