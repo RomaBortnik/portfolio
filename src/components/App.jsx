@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import Lottie from 'lottie-react';
-import animation from './Animation.json';
+import animation from '../animations/heroAnimation.json';
 import Reveal from './Reveal';
 
 export const App = () => {
@@ -12,8 +12,8 @@ export const App = () => {
           paddingLeft: 120,
         }}
       >
-        <div style={{}}>
-          <p style={{ fontSize: '64px', marginTop: 200 }}>Hello, Kotuuuuuzka</p>
+        <div style={{ paddingTop: 200 }}>
+          <p style={{ fontSize: '64px' }}>Hello, Kotuuuuuzka</p>
           <TypeAnimation
             sequence={[
               "I'm Romko",
@@ -38,7 +38,8 @@ export const App = () => {
           style={{
             position: 'absolute',
             right: 100,
-            width: 600,
+            top: 0,
+            width: 700,
           }}
           animationData={animation}
           loop={true}
