@@ -1,3 +1,5 @@
+@import '~@flaticon/flaticon-uicons/css/all/all';
+
 .container {
   height: 40px;
   width: 100px;
@@ -44,10 +46,10 @@
   color: #501a96;
 }
 
-.icon.fa-moon {
+/* .icon.fa-moon {
   color: black !important;
 }
 
 .icon.fa-sun {
   color: black !important;
-}
+} */
