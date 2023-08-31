@@ -17,7 +17,7 @@ export const App = () => {
       ? setCurrentTheme({ ...theme.dark })
       : setCurrentTheme({ ...theme.light });
   };
-  console.log(currentTheme);
+
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>

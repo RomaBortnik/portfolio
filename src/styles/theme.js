@@ -14,6 +14,7 @@ export const theme = Object.freeze({
       accentTextColor:
         'linear-gradient(109.8deg,rgba(62, 5, 116, 1) -5.2%,rgba(41, 14, 151, 1) -5.2%,rgba(216, 68, 148, 1) 103.3%)', // Accent text color
       headerBackground: '#1f1f1f', // Header background color
+      scrollTopIconFill: '#fff', // ScrollTop icon fill color
     },
   },
   light: {
@@ -23,6 +24,7 @@ export const theme = Object.freeze({
       accentTextColor:
         'radial-gradient(circle farthest-corner at 10% 20%,rgba(253, 203, 50, 1) 0%,rgba(244, 56, 98, 1) 100.2%)', // Accent text color
       headerBackground: '#e6daf7', // Header background color
+      scrollTopIconFill: '#fff', // ScrollTop icon fill color
     },
   },
 });

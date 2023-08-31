@@ -12,13 +12,9 @@ export const TopButton = styled.div`
   height: 60px;
   border-radius: 50%;
   font-size: 24px;
-  color: #fff;
   background: ${props => props.theme.colors.accentTextColor};
   cursor: pointer;
   opacity: ${props => (props.isVisible ? 1 : 0)};
   transition: opacity ${baseTransition};
+  color: ${props => props.theme.colors.scrollTopIconFill};
 `;
-
-// background: #22c1c3;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

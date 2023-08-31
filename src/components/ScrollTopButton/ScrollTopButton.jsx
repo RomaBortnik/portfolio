@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { TopButton } from './ScrollTopButton.styled';
+import SvgIcon from 'components/SvgIcon';
+import icon from '../../icons/iconTop.svg';
 
 const ScrollTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,7 +24,12 @@ const ScrollTopButton = () => {
   };
   return (
     <TopButton isVisible={isVisible} onClick={handleClick} style={{}}>
-      Top
+      <SvgIcon
+        style={{ fill: 'black' }}
+        w={60}
+        h={60}
+        use={`${icon}#upper-arrow`}
+      />
     </TopButton>
   );
 };
