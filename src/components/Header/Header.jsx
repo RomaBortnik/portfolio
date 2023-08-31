@@ -1,19 +1,12 @@
 import ThemeSwitcher from 'components/ThemeSwitcher';
 import Headroom from 'react-headroom';
 import SectionContainer from 'components/SectionContainer';
+import { StyledHeader } from './Header.styled';
 
 const Header = () => {
   return (
     <Headroom>
-      <header
-        style={{
-          minWidth: '100%',
-          height: 80,
-          backgroundColor: '#1f1f1f',
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
+      <StyledHeader>
         <SectionContainer>
           <ul
             style={{
@@ -69,7 +62,7 @@ const Header = () => {
             </li>
           </ul>
         </SectionContainer>
-      </header>
+      </StyledHeader>
     </Headroom>
   );
 };
