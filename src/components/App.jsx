@@ -14,11 +14,7 @@ import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
 export const App = () => {
   const [currentTheme, setCurrentTheme] = useState(() => {
     const value = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    if (value) {
-      return value === 'dark' ? { ...theme.dark } : { ...theme.light };
-    } else {
-      return { ...theme.dark };
-    }
+    return value ? { ...theme[value] } : { ...theme.dark };
   });
 
   const onThemeChange = value => {
