@@ -1,13 +1,14 @@
 import Reveal from 'components/Reveal';
 import Section from 'components/Section/Section';
 import SectionContainer from 'components/SectionContainer';
+import SectionTitle from 'components/SectionTitle';
 
 const SectionContacts = () => {
   return (
     <Section id={'contacts'}>
       <SectionContainer>
         <Reveal>
-          <h2>Contacts</h2>
+          <SectionTitle>Contacts</SectionTitle>
           <p style={{ fontSize: 18 }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             ducimus hic sapiente laudantium neque dolores laborum harum facilis

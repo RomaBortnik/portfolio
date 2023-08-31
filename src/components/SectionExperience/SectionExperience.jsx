@@ -1,13 +1,14 @@
 import Reveal from 'components/Reveal';
 import Section from 'components/Section/Section';
 import SectionContainer from 'components/SectionContainer';
+import { StyledTitle } from 'components/SectionTitle/SectionTitle.styled';
 
 const SectionExperience = () => {
   return (
     <Section id={'experience'}>
       <SectionContainer>
         <Reveal>
-          <h2>Experience</h2>
+          <StyledTitle>Experience</StyledTitle>
           <p style={{ fontSize: 18 }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             ducimus hic sapiente laudantium neque dolores laborum harum facilis
