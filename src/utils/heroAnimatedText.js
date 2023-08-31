@@ -1,15 +1,9 @@
 const heroAnimatedText = [
-  "I'm Romko",
+  "I'm Frontend developer",
   1000,
-  "I'm Kotichok",
+  "I'm JavaScript developer",
   1000,
-  "I'm Kotuuuuzyk",
-  1000,
-  "I'm murko-burko",
-  1000,
-  "I'm Kotuskin",
-  1000,
-  "I'm vovtuuuuzyyyyyk",
+  "I'm Fullstack developer",
   1000,
 ];
 

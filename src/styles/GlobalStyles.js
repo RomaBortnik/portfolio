@@ -51,7 +51,8 @@ export const GlobalStyles = css`
     min-height: 100vh;
 
     font-style: normal;
-    overflow: hidden;
+    background-color: #000;
+    color: #fff;
   }
 
   ul,
