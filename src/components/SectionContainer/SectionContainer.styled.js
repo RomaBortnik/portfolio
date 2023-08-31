@@ -1,18 +1,19 @@
 import styled from '@emotion/styled';
+import { sizes, devices } from 'styles';
 
 export const Container = styled.div`
   padding: 0 12px;
   margin: 0 auto;
 
-  @media (min-width: 360px) {
-    width: 360px;
+  @media screen and (${devices.mobile}) {
+    width: ${sizes.mobile};
   }
 
-  @media (min-width: 768px) {
-    width: 768px;
+  @media screen and (${devices.tablet}) {
+    width: ${sizes.tablet};
   }
 
-  @media (min-width: 1280px) {
-    width: 1280px;
+  @media screen and (${devices.desktop}) {
+    width: ${sizes.desktop};
   }
 `;

@@ -1,4 +1,4 @@
-const sizes = {
+export const sizes = {
   onlymobile: '374px',
   mobile: '375px',
   tablet: '768px',
@@ -9,12 +9,16 @@ const sizes = {
 export const theme = Object.freeze({
   dark: {
     colors: {
-      background: '#fff', //Background color
+      background: '#fff', // Background color
+      mainTextColor: '#000', // Main text color
+      headerBackground: 'grey', // Header background color
     },
   },
   light: {
     colors: {
-      background: '#000', //Background color
+      background: '#000', // Background color
+      mainTextColor: '#fff', // Main text color
+      headerBackground: '#1f1f1f', // Header background color
     },
   },
 });

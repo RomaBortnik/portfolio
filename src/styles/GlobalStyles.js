@@ -49,10 +49,7 @@ export const GlobalStyles = css`
     width: 100vw;
     font-family: 'Roboto', serif;
     min-height: 100vh;
-
     font-style: normal;
-    background-color: #000;
-    color: #fff;
   }
 
   ul,
