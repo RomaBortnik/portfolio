@@ -4,6 +4,7 @@ import SectionExperience from './SectionExperience';
 import Hero from './Hero';
 import SectionProjects from './SectionProjects';
 import SectionContacts from './SectionContacts';
+import ScrollTopButton from './ScrollTopButton';
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <SectionExperience />
       <SectionProjects />
       <SectionContacts />
+      <ScrollTopButton />
     </>
   );
 };
