@@ -11,7 +11,7 @@ import { theme } from 'styles';
 import { StyledWrapper } from './Wrapper/Wrapper.styled';
 
 export const App = () => {
-  const [currentTheme, setCurrentTheme] = useState({ ...theme.dark });
+  const [currentTheme] = useState({ ...theme.dark });
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
