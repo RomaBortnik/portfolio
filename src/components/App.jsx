@@ -12,7 +12,7 @@ import { StyledWrapper } from './Wrapper/Wrapper.styled';
 import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
 
 export const App = () => {
-  const [currentTheme] = useState(() => {
+  const [currentTheme, setCurrentTheme] = useState(() => {
     const value = JSON.parse(localStorage.getItem(STORAGE_KEY));
     if (value) {
       return value === 'dark' ? { ...theme.dark } : { ...theme.light };
@@ -21,10 +21,16 @@ export const App = () => {
     }
   });
 
+  const onThemeChange = value => {
+    value === 'dark'
+      ? setCurrentTheme({ ...theme.dark })
+      : setCurrentTheme({ ...theme.light });
+  };
+
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
-        <Header />
+        <Header onThemeChange={onThemeChange} />
         <Hero />
         <SectionAbout />
         <SectionExperience />

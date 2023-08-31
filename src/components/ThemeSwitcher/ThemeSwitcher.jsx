@@ -4,16 +4,18 @@ import './styles.css';
 
 export const STORAGE_KEY = 'theme';
 
-const ThemeSwitcher = () => {
+const ThemeSwitcher = ({ onThemeChange }) => {
   const [currentTheme, setCurrentTheme] = useState(() => {
     const theme = JSON.parse(localStorage.getItem(STORAGE_KEY));
     return theme ? theme : 'dark';
   });
   const handleThemeChange = () => {
     if (currentTheme === 'dark') {
+      onThemeChange('light');
       setCurrentTheme('light');
       localStorage.setItem(STORAGE_KEY, JSON.stringify('light'));
     } else {
+      onThemeChange('dark');
       setCurrentTheme('dark');
       localStorage.setItem(STORAGE_KEY, JSON.stringify('dark'));
     }
