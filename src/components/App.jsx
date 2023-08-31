@@ -9,19 +9,22 @@ import { ThemeProvider } from '@emotion/react';
 import { useState } from 'react';
 import { theme } from 'styles';
 import { StyledWrapper } from './Wrapper/Wrapper.styled';
+import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
 
 export const App = () => {
-  const [currentTheme, setCurrentTheme] = useState({ ...theme.light });
-  const onThemeChange = value => {
-    value
-      ? setCurrentTheme({ ...theme.dark })
-      : setCurrentTheme({ ...theme.light });
-  };
+  const [currentTheme] = useState(() => {
+    const value = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (value) {
+      return value === 'dark' ? { ...theme.dark } : { ...theme.light };
+    } else {
+      return { ...theme.dark };
+    }
+  });
 
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
-        <Header onThemeChange={onThemeChange} />
+        <Header />
         <Hero />
         <SectionAbout />
         <SectionExperience />

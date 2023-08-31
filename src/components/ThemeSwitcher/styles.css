@@ -29,11 +29,11 @@
 .icon {
   color: #f88748;
 }
-.container[data-darkmode='true'] {
+.container[data-darkmode='dark'] {
   background-color: #52527a;
 }
 
-.container[data-darkmode='true'] {
+.container[data-darkmode='dark'] {
   background-image: linear-gradient(
     109.8deg,
     rgba(62, 5, 116, 1) -5.2%,
@@ -42,6 +42,6 @@
   );
 }
 
-.container[data-darkmode='true'] .icon {
+.container[data-darkmode='dark'] .icon {
   color: #501a96;
 }
