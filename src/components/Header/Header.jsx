@@ -3,7 +3,7 @@ import Headroom from 'react-headroom';
 import SectionContainer from 'components/SectionContainer';
 import { StyledHeader } from './Header.styled';
 
-const Header = () => {
+const Header = ({ onThemeChange }) => {
   return (
     <Headroom>
       <StyledHeader>
@@ -58,7 +58,7 @@ const Header = () => {
                 justifyContent: 'center',
               }}
             >
-              <ThemeSwitcher />
+              <ThemeSwitcher onThemeChange={onThemeChange} />
             </li>
           </ul>
         </SectionContainer>

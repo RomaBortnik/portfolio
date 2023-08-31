@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './styles.css';
-const ThemeSwitcher = () => {
+const ThemeSwitcher = ({ onThemeChange }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
-  const handleThemeChange = async () => {
-    await setIsDarkTheme(!isDarkTheme);
+  const handleThemeChange = () => {
+    onThemeChange(!isDarkTheme);
+    setIsDarkTheme(!isDarkTheme);
   };
   return (
     <div

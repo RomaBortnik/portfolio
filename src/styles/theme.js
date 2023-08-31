@@ -9,16 +9,16 @@ export const sizes = {
 export const theme = Object.freeze({
   dark: {
     colors: {
-      background: '#fff', // Background color
-      mainTextColor: '#000', // Main text color
-      headerBackground: 'grey', // Header background color
+      background: '#000', // Background color
+      mainTextColor: '#fff', // Main text color
+      headerBackground: '#1f1f1f', // Header background color
     },
   },
   light: {
     colors: {
-      background: '#000', // Background color
-      mainTextColor: '#fff', // Main text color
-      headerBackground: '#1f1f1f', // Header background color
+      background: '#fff', // Background color
+      mainTextColor: '#000', // Main text color
+      headerBackground: 'grey', // Header background color
     },
   },
 });
