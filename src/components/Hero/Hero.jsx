@@ -2,7 +2,7 @@ import HeroAnimation from 'components/HeroAnimation';
 import Reveal from 'components/Reveal';
 import SectionContainer from 'components/SectionContainer';
 import TextAnimation from 'components/TextAnimation';
-import heroAnimatedText from 'utils/heroAnimatedText';
+import { heroAnimatedText } from 'utils/heroAnimatedText';
 
 const Hero = () => {
   return (

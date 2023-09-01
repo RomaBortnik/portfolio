@@ -1,4 +1,4 @@
-const heroAnimatedText = [
+export const heroAnimatedText = [
   "I'm Frontend developer",
   1000,
   "I'm JavaScript developer",
@@ -6,5 +6,3 @@ const heroAnimatedText = [
   "I'm Fullstack developer",
   1000,
 ];
-
-export default heroAnimatedText;

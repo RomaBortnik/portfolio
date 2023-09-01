@@ -1,5 +1,5 @@
 import Header from './Header';
-import SectionAbout from './SectionAbout';
+import SectionEducation from './SectionEducation';
 import SectionExperience from './SectionExperience';
 import Hero from './Hero';
 import SectionProjects from './SectionProjects';
@@ -28,7 +28,7 @@ export const App = () => {
       <StyledWrapper>
         <Header onThemeChange={onThemeChange} />
         <Hero />
-        <SectionAbout />
+        <SectionEducation />
         <SectionExperience />
         <SectionProjects />
         <SectionContacts />

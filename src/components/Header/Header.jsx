@@ -22,7 +22,7 @@ const Header = ({ onThemeChange }) => {
                 justifyContent: 'center',
               }}
             >
-              <a href="#about">About</a>
+              <a href="#education">Education</a>
             </li>
             <li
               style={{
