@@ -8,59 +8,72 @@ const Header = ({ onThemeChange }) => {
     <Headroom>
       <StyledHeader>
         <SectionContainer>
-          <ul
+          <div
             style={{
-              width: '100%',
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
+              display: 'flex',
+              alignItems: 'center',
             }}
           >
-            <li
+            <a href="/" style={{ fontSize: 28 }}>
+              Logo
+            </a>
+            <ul
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
+                width: '100%',
+                display: 'grid',
+                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
+                fontSize: 20,
+                width: '70%',
+                marginLeft: 'auto',
               }}
             >
-              <a href="#education">Education</a>
-            </li>
-            <li
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <a href="#experience">Experience</a>
-            </li>
-            <li
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <a href="#projects">Projects</a>
-            </li>
-            <li
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <a href="#contacts">Contacts</a>
-            </li>
-            <li
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <ThemeSwitcher onThemeChange={onThemeChange} />
-            </li>
-          </ul>
+              <li
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a href="#education">Education</a>
+              </li>
+              <li
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a href="#experience">Experience</a>
+              </li>
+              <li
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a href="#projects">Projects</a>
+              </li>
+              <li
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a href="#contacts">Contacts</a>
+              </li>
+              <li
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <ThemeSwitcher onThemeChange={onThemeChange} />
+              </li>
+            </ul>
+          </div>
         </SectionContainer>
       </StyledHeader>
     </Headroom>
