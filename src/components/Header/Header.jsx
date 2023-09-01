@@ -19,7 +19,6 @@ const Header = ({ onThemeChange }) => {
             </a>
             <ul
               style={{
-                width: '100%',
                 display: 'grid',
                 gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
                 fontSize: 20,
