@@ -1,5 +1,3 @@
-import NU_LP_IMAGE from '../../images/NULP_LOGO_ENG.jpg';
-import GO_IT_IMAGE from '../../images/GO_IT_LOGO.png';
 import {
   Item,
   ItemContainer,
@@ -12,14 +10,14 @@ import {
 } from './EducationItem.styled';
 
 const EducationItem = ({ education }) => {
-  const { name, degree, period, logo, altText } = education;
+  const { id, name, degree, period, logo, altText } = education;
   return (
     <Item>
       <ItemContainer>
-        {logo === 'goit' ? (
-          <Logo src={GO_IT_IMAGE} alt={altText} />
+        {id === 'goit' ? (
+          <Logo src={logo} alt={altText} />
         ) : (
-          <Logo className="nulp-logo" src={NU_LP_IMAGE} alt={altText} />
+          <Logo className="nulp-logo" src={logo} alt={altText} />
         )}
 
         <Info>

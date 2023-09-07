@@ -9,11 +9,11 @@ export const sizes = {
 export const theme = Object.freeze({
   dark: {
     colors: {
-      background: '#000', // Background color
+      background: '#1f1f1f', // Background color
       mainTextColor: '#fff', // Main text color
       accentTextColor:
         'linear-gradient(109.8deg,rgba(62, 5, 116, 1) -5.2%,rgba(41, 14, 151, 1) -5.2%,rgba(216, 68, 148, 1) 103.3%)', // Accent text color
-      headerBackground: '#1f1f1f', // Header background color
+      headerBackground: '#000', // Header background color
       scrollTopIconFill: '#fff', // ScrollTop icon fill color
     },
   },

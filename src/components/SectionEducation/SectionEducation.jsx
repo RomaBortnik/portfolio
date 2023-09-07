@@ -3,7 +3,7 @@ import Section from 'components/Section/Section';
 import SectionContainer from 'components/SectionContainer';
 import SectionTitle from 'components/SectionTitle';
 import { education } from 'utils/education';
-import EducationItem from 'components/EducationItem';
+import EducationItem from './EducationItem';
 
 const SectionEducation = () => {
   return (
