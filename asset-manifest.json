@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d97a70eb.css",
-    "main.js": "/portfolio/static/js/main.2edf117b.js",
+    "main.js": "/portfolio/static/js/main.dc58e231.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/portfolio/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/portfolio/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
     "static/media/uicons-solid-rounded-3CHVJWAY.eot": "/portfolio/static/media/uicons-solid-rounded-3CHVJWAY.db4b69f1f366dd7c3690.eot",
     "static/media/uicons-regular-straight-3DEHAOE2.eot": "/portfolio/static/media/uicons-regular-straight-3DEHAOE2.e43fe2351a43837fa137.eot",
     "static/media/uicons-bold-straight-VFSYWI6I.eot": "/portfolio/static/media/uicons-bold-straight-VFSYWI6I.db75428c44d8abaca0d4.eot",
     "static/media/uicons-solid-straight-YGWXBG23.eot": "/portfolio/static/media/uicons-solid-straight-YGWXBG23.5f4e5a6d90737ade4832.eot",
-    "static/media/NULP_LOGO_ENG.jpg": "/portfolio/static/media/NULP_LOGO_ENG.f8692e2934900c694751.jpg",
     "static/media/AnyConv.com__Roboto-Bold.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Bold.36621534150f8386a36b.woff2",
     "static/media/AnyConv.com__Roboto-Medium.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Medium.4e1a262de8218277f21e.woff2",
     "static/media/AnyConv.com__Roboto-Regular.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Regular.936f5f36409873f2d515.woff2",
@@ -33,10 +32,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/iconTop.svg": "/portfolio/static/media/iconTop.3bc4cb4e4375f9de74d7b7fe70435a3c.svg",
     "main.d97a70eb.css.map": "/portfolio/static/css/main.d97a70eb.css.map",
-    "main.2edf117b.js.map": "/portfolio/static/js/main.2edf117b.js.map"
+    "main.dc58e231.js.map": "/portfolio/static/js/main.dc58e231.js.map"
   },
   "entrypoints": [
     "static/css/main.d97a70eb.css",
-    "static/js/main.2edf117b.js"
+    "static/js/main.dc58e231.js"
   ]
 }
