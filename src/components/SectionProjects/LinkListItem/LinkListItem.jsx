@@ -5,7 +5,7 @@ const LinkListItem = ({ link, icon }) => {
   return (
     <LinkItem>
       <LinkRef href={link}>
-        <SvgIcon w={24} h={24} use={icon}></SvgIcon>
+        <SvgIcon w={20} h={20} use={icon}></SvgIcon>
       </LinkRef>
     </LinkItem>
   );

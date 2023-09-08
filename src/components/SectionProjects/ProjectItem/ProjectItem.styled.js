@@ -49,7 +49,7 @@ export const ProjectOverlay = styled.div`
   background-color: ${props => props.theme.colors.projectOverlayBgd};
   color: #fff;
   text-align: justify;
-  padding: 24px 24px 12px 24px;
+  padding: 8px;
   font-size: 20px;
   border-radius: 12px;
   transform: scale(0);
@@ -60,12 +60,17 @@ export const ProjectOverlay = styled.div`
 
   @media screen and (${devices.tablet}) {
     border-radius: 24px;
+    padding: 12px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    padding: 18p 18px 12px 18px;
   }
 `;
 
 export const ProjectTitle = styled.h2`
-  font-size: 14px;
-  margin-bottom: 8px;
+  font-size: 12px;
+  margin-bottom: 4px;
 
   @media screen and (${devices.tablet}) {
     font-size: 28px;
@@ -78,7 +83,7 @@ export const ProjectTitle = styled.h2`
 `;
 
 export const ProjectDescr = styled.p`
-  font-size: 12px;
+  font-size: 10px;
 
   @media screen and (${devices.tablet}) {
     font-size: 16px;
