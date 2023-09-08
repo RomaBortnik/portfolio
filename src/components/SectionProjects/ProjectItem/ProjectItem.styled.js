@@ -5,7 +5,7 @@ export const Project = styled.li`
   position: relative;
   height: 100%;
   cursor: pointer;
-  border-radius: 24px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
@@ -28,6 +28,10 @@ export const Project = styled.li`
       margin-bottom: 24px;
     }
   }
+
+  @media screen and (${devices.tablet}) {
+    border-radius: 24px;
+  }
 `;
 
 export const ProjectThumb = styled.div`
@@ -47,17 +51,42 @@ export const ProjectOverlay = styled.div`
   text-align: justify;
   padding: 24px 24px 12px 24px;
   font-size: 20px;
-  border-radius: 24px;
+  border-radius: 12px;
   transform: scale(0);
   transition: transform ${baseTransition};
   font-family: 'Architects Daughter';
   display: flex;
   flex-direction: column;
+
+  @media screen and (${devices.tablet}) {
+    border-radius: 24px;
+  }
 `;
 
 export const ProjectTitle = styled.h2`
-  font-size: 28px;
-  margin-bottom: 12px;
+  font-size: 14px;
+  margin-bottom: 8px;
+
+  @media screen and (${devices.tablet}) {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    font-size: 32px;
+  }
+`;
+
+export const ProjectDescr = styled.p`
+  font-size: 12px;
+
+  @media screen and (${devices.tablet}) {
+    font-size: 16px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    font-size: 20px;
+  }
 `;
 
 export const LinkList = styled.ul`

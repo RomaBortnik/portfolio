@@ -5,6 +5,7 @@ import {
   ProjectOverlay,
   ProjectThumb,
   ProjectTitle,
+  ProjectDescr,
   LinkList,
 } from './ProjectItem.styled';
 
@@ -19,7 +20,7 @@ const ProjectItem = ({ project }) => {
 
         <ProjectOverlay className="overlay">
           <ProjectTitle>{name}</ProjectTitle>
-          <p>{descr}</p>
+          <ProjectDescr>{descr}</ProjectDescr>
           <LinkList>
             {media.map(({ link, icon }) => (
               <LinkListItem key={id} link={link} icon={icon} />

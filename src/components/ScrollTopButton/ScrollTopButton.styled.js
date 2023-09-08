@@ -17,4 +17,5 @@ export const TopButton = styled.div`
   opacity: ${props => (props.isVisible ? 1 : 0)};
   transition: opacity ${baseTransition};
   color: ${props => props.theme.colors.scrollTopIconFill};
+  z-index: 999;
 `;
