@@ -1,8 +1,15 @@
 import Reveal from 'components/Reveal';
-import { Project, ProjectOverlay, ProjectThumb } from './ProjectItem.styled';
+import LinkListItem from '../LinkListItem';
+import {
+  Project,
+  ProjectOverlay,
+  ProjectThumb,
+  ProjectTitle,
+  LinkList,
+} from './ProjectItem.styled';
 
 const ProjectItem = ({ project }) => {
-  const { image, altText, descr } = project;
+  const { id, name, image, altText, descr, media } = project;
   return (
     <Project>
       <Reveal>
@@ -11,12 +18,13 @@ const ProjectItem = ({ project }) => {
         </ProjectThumb>
 
         <ProjectOverlay className="overlay">
+          <ProjectTitle>{name}</ProjectTitle>
           <p>{descr}</p>
-          <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-          </ul>
+          <LinkList>
+            {media.map(({ link, icon }) => (
+              <LinkListItem key={id} link={link} icon={icon} />
+            ))}
+          </LinkList>
         </ProjectOverlay>
       </Reveal>
     </Project>

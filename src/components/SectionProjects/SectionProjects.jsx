@@ -4,6 +4,7 @@ import SectionContainer from 'components/SectionContainer';
 import SectionTitle from 'components/SectionTitle';
 import { projects } from 'utils/projects';
 import ProjectItem from './ProjectItem';
+import { ProjectList } from './SectionProjects.styled';
 
 const SectionProjects = () => {
   return (
@@ -11,18 +12,11 @@ const SectionProjects = () => {
       <SectionContainer>
         <Reveal>
           <SectionTitle>Projects</SectionTitle>
-          <ul
-            style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gridColumnGap: 60,
-              gridRowGap: 48,
-            }}
-          >
+          <ProjectList>
             {projects.map(project => (
               <ProjectItem key={project.id} project={project}></ProjectItem>
             ))}
-          </ul>
+          </ProjectList>
         </Reveal>
       </SectionContainer>
     </Section>
