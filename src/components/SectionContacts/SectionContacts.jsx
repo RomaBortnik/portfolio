@@ -23,9 +23,9 @@ const SectionContacts = () => {
             centeredSlides={true}
             loop={true}
           >
-            {projects.map(project => (
-              <StyledSlide>
-                <ProjectItem key={project.id} project={project}></ProjectItem>
+            {projects.map((project, index) => (
+              <StyledSlide key={project.id}>
+                <ProjectItem project={project}></ProjectItem>
               </StyledSlide>
             ))}
           </StyledSwiper>

@@ -3,7 +3,7 @@ import { baseTransition, devices } from 'styles';
 
 export const Project = styled.li`
   position: relative;
-  height: 100%;
+  /* height: 100%; */
   cursor: pointer;
   border-radius: 12px;
   overflow: hidden;
