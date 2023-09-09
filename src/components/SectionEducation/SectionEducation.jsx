@@ -11,7 +11,6 @@ const SectionEducation = () => {
       <SectionContainer>
         <Reveal>
           <SectionTitle>Education</SectionTitle>
-
           <ul>
             {education.map(el => (
               <EducationItem key={el.id} education={el}></EducationItem>
