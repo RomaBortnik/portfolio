@@ -3,10 +3,10 @@ import { devices } from 'styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 export const StyledSlide = styled(SwiperSlide)`
-  margin-right: 12px !important;
+  margin-right: 24px !important;
   background: transparent !important;
-  width: 85% !important;
-  height: auto !important;
+  width: 65% !important;
+  height: 400px !important;
 
   @media screen and (${devices.tablet}) {
     margin-right: 40px !important;

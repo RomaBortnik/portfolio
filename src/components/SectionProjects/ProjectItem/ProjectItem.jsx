@@ -10,12 +10,16 @@ import {
 } from './ProjectItem.styled';
 
 const ProjectItem = ({ project }) => {
-  const { name, image, altText, descr, media } = project;
+  const { name, mobileImage, altText, descr, media } = project;
   return (
     <Project>
       {/* <Reveal> */}
       <ProjectThumb className="thumb">
-        <img src={image} alt={altText} />
+        <img
+          style={{ height: '100%', width: '100%' }}
+          src={mobileImage}
+          alt={altText}
+        />
       </ProjectThumb>
 
       <ProjectOverlay className="overlay">

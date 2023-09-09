@@ -3,7 +3,7 @@ import { baseTransition, devices } from 'styles';
 
 export const Project = styled.li`
   position: relative;
-  /* height: 100%; */
+  height: 100%;
   cursor: pointer;
   border-radius: 12px;
   overflow: hidden;
@@ -49,7 +49,7 @@ export const ProjectOverlay = styled.div`
   background-color: ${props => props.theme.colors.projectOverlayBgd};
   color: #fff;
   text-align: justify;
-  padding: 8px;
+  padding: 16px;
   font-size: 20px;
   border-radius: 12px;
   transform: scale(0);
@@ -69,8 +69,8 @@ export const ProjectOverlay = styled.div`
 `;
 
 export const ProjectTitle = styled.h2`
-  font-size: 12px;
-  margin-bottom: 4px;
+  font-size: 18px;
+  margin-bottom: 8px;
 
   @media screen and (${devices.tablet}) {
     font-size: 28px;
@@ -83,7 +83,7 @@ export const ProjectTitle = styled.h2`
 `;
 
 export const ProjectDescr = styled.p`
-  font-size: 10px;
+  font-size: 14px;
 
   @media screen and (${devices.tablet}) {
     font-size: 16px;

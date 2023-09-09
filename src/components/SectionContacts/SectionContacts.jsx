@@ -18,12 +18,12 @@ const SectionContacts = () => {
           <SectionTitle>Contacts</SectionTitle>
           <StyledSwiper
             modules={[Autoplay]}
-            autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+            autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
             slidesPerView={'auto'}
             centeredSlides={true}
             loop={true}
           >
-            {projects.map((project, index) => (
+            {projects.map(project => (
               <StyledSlide key={project.id}>
                 <ProjectItem project={project}></ProjectItem>
               </StyledSlide>
