@@ -12,21 +12,21 @@ export const projects = [
     descr:
       'A multi-page website of a web development studio. The essence of the project is to create a site that will be cross-browser, with a good assessment of web performance and with adaptive layout support. ',
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/RomaBortnik/goit-markup-hw-08',
