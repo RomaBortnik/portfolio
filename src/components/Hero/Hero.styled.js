@@ -3,9 +3,11 @@ import { devices } from 'styles';
 
 export const SectionHero = styled.section`
   padding-top: 60px;
+  margin-bottom: 40px;
 
   @media screen and (${devices.tablet}) {
     padding-top: 0;
+    margin-bottom: 0;
   }
 `;
 
