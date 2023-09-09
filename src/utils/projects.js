@@ -48,21 +48,21 @@ export const projects = [
     descr:
       'A multi-page website for restaurant-hotel complex, which consists of themain page, the restaurant page, the hotel page and an additional hotel room page. Functionality of the website allows cosumers to check the menu, order a table in a restaurant or a hotel room. ',
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/AndrewKustov1998/mimino',
@@ -83,21 +83,21 @@ export const projects = [
     altText: 'News home page',
     descr: `A multi-page website about news from around the world. It includes a complex functionality, which will allow users not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc.`,
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/Boroda-Dmitro/js_ny-times-news',
@@ -117,23 +117,23 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/taskpro`,
     altText: 'Task Pro workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur? Magni accusantium nulla saepe, soluta, modi doloribus ratione dicta consequatur pariatur nostrum at?',
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/TikhonenkoVV/bite-todo-react',
@@ -153,23 +153,23 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/phonebook`,
     altText: 'Phonebook workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur? Magni accusantium nulla saepe, soluta, modi doloribus ratione dicta consequatur pariatur nostrum at?',
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/RomaBortnik/goit-react-hw-08-phonebook',
@@ -189,23 +189,23 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/tweets`,
     altText: 'Tweets workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur? Magni accusantium nulla saepe, soluta, modi doloribus ratione dicta consequatur pariatur nostrum at?',
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
     media: [
-      {
-        id: nanoid(),
-        link: 'https://www.instagram.com/bortnik_roma/',
-        icon: `${sprite}#icon-instagram`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.facebook.com/profile.php?id=100015224347792',
-        icon: `${sprite}#icon-facebook`,
-      },
-      {
-        id: nanoid(),
-        link: 'https://www.linkedin.com/in/roman-bortnik/',
-        icon: `${sprite}#icon-linkedin`,
-      },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.instagram.com/bortnik_roma/',
+      //   icon: `${sprite}#icon-instagram`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.facebook.com/profile.php?id=100015224347792',
+      //   icon: `${sprite}#icon-facebook`,
+      // },
+      // {
+      //   id: nanoid(),
+      //   link: 'https://www.linkedin.com/in/roman-bortnik/',
+      //   icon: `${sprite}#icon-linkedin`,
+      // },
       {
         id: nanoid(),
         link: 'https://github.com/RomaBortnik/test-repo',
