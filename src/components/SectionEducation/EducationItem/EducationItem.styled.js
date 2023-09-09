@@ -19,7 +19,7 @@ export const ItemContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  max-width: 90%;
+  max-width: 65%;
   margin: 0 auto 24px;
 
   @media screen and (${devices.tablet}) {
@@ -49,7 +49,7 @@ export const Info = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 42px;
+  font-size: 40px;
   margin-bottom: 12px;
 
   @media screen and (${devices.tablet}) {
@@ -63,7 +63,7 @@ export const Title = styled.h2`
 `;
 
 export const Degree = styled.p`
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 12px;
 
   @media screen and (${devices.tablet}) {
