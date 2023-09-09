@@ -11,12 +11,14 @@ const SectionEducation = () => {
       <SectionContainer>
         <Reveal>
           <SectionTitle>Education</SectionTitle>
-          <ul>
-            {education.map(el => (
-              <EducationItem key={el.id} education={el}></EducationItem>
-            ))}
-          </ul>
         </Reveal>
+        <ul>
+          {education.map(el => (
+            <Reveal key={el.id} marginBottom={'60px'}>
+              <EducationItem education={el}></EducationItem>
+            </Reveal>
+          ))}
+        </ul>
       </SectionContainer>
     </Section>
   );

@@ -2,10 +2,6 @@ import styled from '@emotion/styled';
 import { baseTransition, devices } from 'styles';
 
 export const Item = styled.li`
-  &:not(:last-of-type) {
-    margin-bottom: 60px;
-  }
-
   &:hover .line {
     width: 100%;
     background: ${props => props.theme.colors.accentTextColor};

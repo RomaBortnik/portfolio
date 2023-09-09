@@ -1,7 +1,8 @@
 import { motion, useInView, useAnimation } from 'framer-motion';
 import { useEffect, useRef } from 'react';
+import { StyledReveal } from './Reveal.styled';
 
-const Reveal = ({ children }) => {
+const Reveal = ({ marginBottom = 0, children }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -13,7 +14,7 @@ const Reveal = ({ children }) => {
   }, [isInView, mainControls]);
 
   return (
-    <div ref={ref}>
+    <StyledReveal ref={ref} marginbottom={marginBottom}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },
@@ -25,7 +26,7 @@ const Reveal = ({ children }) => {
       >
         {children}
       </motion.div>
-    </div>
+    </StyledReveal>
   );
 };
 
