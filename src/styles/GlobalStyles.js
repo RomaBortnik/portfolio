@@ -89,7 +89,7 @@ export const GlobalStyles = css`
 
   body {
     width: 100vw;
-    font-family: 'Roboto', 'Kalam', 'Architects Daughter', serif, sans-serif;
+    font-family: 'Architects Daughter', 'Roboto', 'Kalam', serif, sans-serif;
     min-height: 100vh;
     font-style: normal;
   }

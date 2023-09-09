@@ -5,7 +5,7 @@ import { StyledHeader } from './Header.styled';
 
 const Header = ({ onThemeChange }) => {
   return (
-    <Headroom>
+    <Headroom style={{ zIndex: 999 }}>
       <StyledHeader>
         <SectionContainer>
           <div
@@ -35,7 +35,7 @@ const Header = ({ onThemeChange }) => {
               >
                 <a href="#education">Education</a>
               </li>
-              <li
+              {/* <li
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -43,8 +43,8 @@ const Header = ({ onThemeChange }) => {
                 }}
               >
                 <a href="#experience">Experience</a>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -52,7 +52,7 @@ const Header = ({ onThemeChange }) => {
                 }}
               >
                 <a href="#projects">Projects</a>
-              </li>
+              </li> */}
               <li
                 style={{
                   display: 'flex',

@@ -1,6 +1,6 @@
 import Header from './Header';
 import SectionEducation from './SectionEducation';
-import SectionExperience from './SectionExperience';
+// import SectionExperience from './SectionExperience';
 import Hero from './Hero';
 // import SectionProjects from './SectionProjects';
 import SectionContacts from './SectionContacts';
@@ -29,7 +29,7 @@ export const App = () => {
         <Header onThemeChange={onThemeChange} />
         <Hero />
         <SectionEducation />
-        <SectionExperience />
+        {/* <SectionExperience /> */}
         {/* <SectionProjects /> */}
         <SectionContacts />
         <ScrollTopButton />

@@ -1,8 +1,8 @@
 export const heroAnimatedText = [
-  "I'm Frontend developer",
+  'Frontend developer',
   1000,
-  "I'm JavaScript developer",
+  'JavaScript developer',
   1000,
-  "I'm Fullstack developer",
+  'Fullstack developer',
   1000,
 ];

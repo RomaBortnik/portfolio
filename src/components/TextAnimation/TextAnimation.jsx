@@ -1,14 +1,7 @@
-import { TypeAnimation } from 'react-type-animation';
+import { AnimatedText } from './TextAnimation.styled';
 
-const TextAnimation = ({ text, fontSize }) => {
-  return (
-    <TypeAnimation
-      sequence={text}
-      speed={10}
-      repeat={Infinity}
-      style={{ fontSize }}
-    />
-  );
+const TextAnimation = ({ text }) => {
+  return <AnimatedText sequence={text} speed={20} repeat={Infinity} />;
 };
 
 export default TextAnimation;

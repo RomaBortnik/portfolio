@@ -35,7 +35,7 @@ const ThemeSwitcher = ({ onThemeChange }) => {
             className={`icon fi-rr-${currentTheme === 'dark' ? 'moon' : 'sun'}`}
             key={currentTheme === 'dark' ? 'moon' : 'sun'}
             initial={{ y: -30, opacity: 0 }}
-            animate={{ y: 2, opacity: 1 }}
+            animate={{ y: 4, opacity: 1 }}
             exit={{ y: 30, opacity: 0 }}
             transition={{ duration: 0.2 }}
           ></motion.i>
