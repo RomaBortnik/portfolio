@@ -14,7 +14,7 @@ const Header = ({ onThemeChange }) => {
               alignItems: 'center',
             }}
           >
-            <a href="/" style={{ fontSize: 28 }}>
+            <a href="../../public/index.html" style={{ fontSize: 28 }}>
               Logo
             </a>
             <ul
