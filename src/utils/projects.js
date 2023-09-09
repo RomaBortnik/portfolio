@@ -7,7 +7,7 @@ export const projects = [
     id: nanoid(),
     name: 'WebStudio',
     image: `${CLOUDINARY_URL}projects/desktop/webstudio`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/webstudio`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/webstudio-new`,
     altText: 'WebStudio home page',
     descr:
       'A multi-page website of a web development studio. The essence of the project is to create a site that will be cross-browser, with a good assessment of web performance and with adaptive layout support. ',
@@ -43,7 +43,7 @@ export const projects = [
     id: nanoid(),
     name: 'Mimino',
     image: `${CLOUDINARY_URL}projects/desktop/mimino`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/mimino`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/mimino-new`,
     altText: 'Mimino home page',
     descr:
       'A multi-page website for restaurant-hotel complex, which consists of themain page, the restaurant page, the hotel page and an additional hotel room page. Functionality of the website allows cosumers to check the menu, order a table in a restaurant or a hotel room. ',
@@ -79,7 +79,7 @@ export const projects = [
     id: nanoid(),
     name: 'News',
     image: `${CLOUDINARY_URL}projects/desktop/news`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/news`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/news-new`,
     altText: 'News home page',
     descr: `A multi-page website about news from around the world. It includes a complex functionality, which will allow users not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc.`,
     media: [
@@ -114,7 +114,7 @@ export const projects = [
     id: nanoid(),
     name: 'Task Pro',
     image: `${CLOUDINARY_URL}projects/desktop/taskpro`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/taskpro`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/taskpro-new`,
     altText: 'Task Pro workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
@@ -150,7 +150,7 @@ export const projects = [
     id: nanoid(),
     name: 'Phonebook',
     image: `${CLOUDINARY_URL}projects/desktop/phonebook`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/phonebook`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/phonebook-new`,
     altText: 'Phonebook workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
@@ -186,7 +186,7 @@ export const projects = [
     id: nanoid(),
     name: 'Tweets',
     image: `${CLOUDINARY_URL}projects/desktop/tweets`,
-    mobileImage: `${CLOUDINARY_URL}projects/mobile/tweets`,
+    mobileImage: `${CLOUDINARY_URL}projects/mobile/tweets-new`,
     altText: 'Tweets workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',

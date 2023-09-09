@@ -6,7 +6,7 @@ export const StyledSlide = styled(SwiperSlide)`
   margin-right: 32px !important;
   background: transparent !important;
   width: 65% !important;
-  height: 400px !important;
+  height: 412px !important;
 
   @media screen and (${devices.tablet}) {
     margin-right: 40px !important;
