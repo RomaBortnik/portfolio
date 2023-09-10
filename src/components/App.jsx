@@ -2,8 +2,8 @@ import Header from './Header';
 import SectionEducation from './SectionEducation';
 // import SectionExperience from './SectionExperience';
 import Hero from './Hero';
-// import SectionProjects from './SectionProjects';
-import SectionContacts from './SectionContacts';
+import SectionProjects from './SectionProjects';
+// import SectionContacts from './SectionContacts';
 import ScrollTopButton from './ScrollTopButton';
 import { ThemeProvider } from '@emotion/react';
 import { useState } from 'react';
@@ -17,7 +17,7 @@ export const App = () => {
     return value ? { ...theme[value] } : { ...theme.dark };
   });
 
-  const onThemeChange = value => {
+  const handleTheme = value => {
     value === 'dark'
       ? setCurrentTheme({ ...theme.dark })
       : setCurrentTheme({ ...theme.light });
@@ -26,12 +26,12 @@ export const App = () => {
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
-        <Header onThemeChange={onThemeChange} />
+        <Header onThemeChange={handleTheme} />
         <Hero />
         <SectionEducation />
         {/* <SectionExperience /> */}
-        {/* <SectionProjects /> */}
-        <SectionContacts />
+        <SectionProjects />
+        {/* <SectionContacts /> */}
         <ScrollTopButton />
       </StyledWrapper>
     </ThemeProvider>

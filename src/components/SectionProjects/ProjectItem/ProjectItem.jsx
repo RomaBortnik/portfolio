@@ -40,8 +40,8 @@ const ProjectItem = ({ project }) => {
         <ProjectTitle>{name}</ProjectTitle>
         <ProjectDescr>{descr}</ProjectDescr>
         <LinkList>
-          {media.map(({ id, link, icon }) => (
-            <LinkListItem key={id} link={link} icon={icon} />
+          {media.map(project => (
+            <LinkListItem key={project.id} project={project} />
           ))}
         </LinkList>
       </ProjectOverlay>

@@ -10,6 +10,11 @@ export const StyledTitle = styled.h2`
   -webkit-text-fill-color: transparent;
 
   @media screen and (${devices.tablet}) {
+    text-align: left;
     padding-left: 24px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    padding-left: 48px;
   }
 `;

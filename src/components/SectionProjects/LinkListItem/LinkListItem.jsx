@@ -1,11 +1,14 @@
 import SvgIcon from 'components/SvgIcon';
-import { LinkItem, LinkRef } from './LinkListItem.styled';
+import { LinkItem, LinkRef, LinkText } from './LinkListItem.styled';
 
-const LinkListItem = ({ link, icon }) => {
+const LinkListItem = ({ project }) => {
+  const { link, icon, name } = project;
+
   return (
     <LinkItem>
       <LinkRef href={link} target="_blank">
-        <SvgIcon w={20} h={20} use={icon}></SvgIcon>
+        <SvgIcon w={20} h={20} use={icon} />
+        <LinkText>{name}</LinkText>
       </LinkRef>
     </LinkItem>
   );

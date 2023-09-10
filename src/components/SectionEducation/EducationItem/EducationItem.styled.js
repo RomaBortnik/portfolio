@@ -25,7 +25,7 @@ export const Logo = styled.img`
   @media screen and (${devices.tablet}) {
     width: 360px;
     height: auto;
-    margin: 0 0 24px 0;
+    margin: 0 auto;
   }
 
   &.nulp-logo {

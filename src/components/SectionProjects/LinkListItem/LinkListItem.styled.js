@@ -2,9 +2,6 @@ import styled from '@emotion/styled';
 import { devices, baseTransition } from 'styles';
 
 export const LinkItem = styled.li`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 4px 10px;
@@ -19,12 +16,24 @@ export const LinkItem = styled.li`
 
   @media screen and (${devices.tablet}) {
     border-radius: 8px;
-    padding: 4px 0;
+    // padding: 4px;
   }
 `;
 
 export const LinkRef = styled.a`
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 4px;
+
+  @media screen and (${devices.tablet}) {
+    gap: 8px;
+  }
+`;
+
+export const LinkText = styled.p`
+  font-size: 14px;
+
+  @media screen and (${devices.tablet}) {
+    font-size: 16px;
+  }
 `;

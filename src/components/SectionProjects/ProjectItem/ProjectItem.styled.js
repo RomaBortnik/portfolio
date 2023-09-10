@@ -3,7 +3,7 @@ import { baseTransition, devices } from 'styles';
 
 export const Project = styled.li`
   position: relative;
-  height: 100%;
+  height: 412px;
   cursor: pointer;
   border-radius: 12px;
   overflow: hidden;
@@ -31,6 +31,11 @@ export const Project = styled.li`
 
   @media screen and (${devices.tablet}) {
     border-radius: 24px;
+    height: 264px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    height: 320px;
   }
 `;
 
@@ -60,11 +65,11 @@ export const ProjectOverlay = styled.div`
 
   @media screen and (${devices.tablet}) {
     border-radius: 24px;
-    padding: 12px;
+    padding: 16px;
   }
 
   @media screen and (${devices.desktop}) {
-    padding: 18p 18px 12px 18px;
+    padding: 16px 24px;
   }
 `;
 
@@ -95,9 +100,13 @@ export const ProjectDescr = styled.p`
 `;
 
 export const LinkList = styled.ul`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 18px;
-  margin-top: auto;
-  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: auto auto 0;
+
+  @media screen and (${devices.tablet}) {
+    margin-right: 0;
+    gap: 16px;
+  }
 `;
