@@ -19,7 +19,7 @@ export const MenuBackdrop = styled.div`
 `;
 
 export const MenuContainer = styled.div`
-  padding: 24px;
+  padding: 12px 24px;
   margin-left: auto;
   width: 75%;
   height: 100%;
@@ -32,4 +32,5 @@ export const CloseBtn = styled.button`
   align-items: center;
   justify-content: center;
   margin-left: auto;
+  height: 10vh;
 `;
