@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.77c8e17d.css",
-    "main.js": "/portfolio/static/js/main.705519d3.js",
+    "main.css": "/portfolio/static/css/main.8fba53d9.css",
+    "main.js": "/portfolio/static/js/main.c0c30a1f.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/portfolio/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/portfolio/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
     "static/media/uicons-solid-rounded-3CHVJWAY.eot": "/portfolio/static/media/uicons-solid-rounded-3CHVJWAY.db4b69f1f366dd7c3690.eot",
@@ -40,11 +40,11 @@
     "static/media/icons.svg": "/portfolio/static/media/icons.7264b0602f95bc82044e1df588e1b28b.svg",
     "index.html": "/portfolio/index.html",
     "static/media/iconTop.svg": "/portfolio/static/media/iconTop.3bc4cb4e4375f9de74d7b7fe70435a3c.svg",
-    "main.77c8e17d.css.map": "/portfolio/static/css/main.77c8e17d.css.map",
-    "main.705519d3.js.map": "/portfolio/static/js/main.705519d3.js.map"
+    "main.8fba53d9.css.map": "/portfolio/static/css/main.8fba53d9.css.map",
+    "main.c0c30a1f.js.map": "/portfolio/static/js/main.c0c30a1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.77c8e17d.css",
-    "static/js/main.705519d3.js"
+    "static/css/main.8fba53d9.css",
+    "static/js/main.c0c30a1f.js"
   ]
 }
