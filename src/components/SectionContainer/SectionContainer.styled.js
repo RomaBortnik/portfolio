@@ -4,7 +4,7 @@ import { sizes, devices } from 'styles';
 export const Container = styled.div`
   padding: 0 8px;
   margin: 0 auto;
-
+  width: 100%;
   @media screen and (${devices.mobile}) {
     width: ${sizes.mobile};
   }

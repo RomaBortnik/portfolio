@@ -27,7 +27,7 @@ const SectionProjects = () => {
   const handleScreenWidth = event => {
     setScreenWidth(event.target.innerWidth);
   };
-  console.log(screenWidth >= sizes.desktop);
+
   return (
     <Section id={'projects'}>
       <SectionContainer>
