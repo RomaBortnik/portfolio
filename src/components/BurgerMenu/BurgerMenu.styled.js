@@ -24,7 +24,7 @@ export const MenuContainer = styled.div`
   width: 75%;
   height: 100%;
   background-color: ${props => props.theme.colors.background};
-  transition: transform ${baseTransition}, width ${baseTransition};
+  transition: background-color ${baseTransition}, width ${baseTransition};
 `;
 
 export const CloseBtn = styled.button`
