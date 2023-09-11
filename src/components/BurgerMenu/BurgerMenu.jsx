@@ -1,6 +1,7 @@
 import { MenuBackdrop, MenuContainer } from './BurgerMenu.styled';
 import sprite from '../../images/icons.svg';
 import SvgIcon from 'components/SvgIcon';
+import './styles.css';
 
 const BurgerMenu = ({ menuStatus, onClose }) => {
   const handleBackdropClick = e => {

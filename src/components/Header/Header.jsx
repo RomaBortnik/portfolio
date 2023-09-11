@@ -22,6 +22,7 @@ const Header = ({ onThemeChange }) => {
   };
 
   const toggleMenu = () => {
+    document.querySelector('body').classList.toggle('backdrop');
     setIsMenuOpen(!isMenuOpen);
   };
   return (
