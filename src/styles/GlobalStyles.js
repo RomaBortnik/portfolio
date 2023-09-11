@@ -94,6 +94,10 @@ export const GlobalStyles = css`
     font-style: normal;
   }
 
+  body.backdrop {
+    overflow: hidden;
+  }
+
   ul,
   ol {
     list-style: none;

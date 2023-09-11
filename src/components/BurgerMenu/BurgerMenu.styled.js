@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { baseTransition, devices } from 'styles';
+import { baseTransition } from 'styles';
 
 export const MenuBackdrop = styled.div`
   position: fixed;
@@ -9,25 +9,19 @@ export const MenuBackdrop = styled.div`
   width: 0;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: width ${baseTransition};
-  overflow: hidden;
   display: grid;
   grid-template-rows: 100%;
+  transition: width ${baseTransition};
 
   &.active {
     width: 100%;
-  }
-
-  @media screen and (${devices.tablet}) {
-    display: none;
   }
 `;
 
 export const MenuContainer = styled.div`
   margin-left: auto;
-  width: 80%;
+  width: 75%;
   height: 100%;
-
   background-color: ${props => props.theme.colors.background};
   transition: transform ${baseTransition}, width ${baseTransition};
 `;

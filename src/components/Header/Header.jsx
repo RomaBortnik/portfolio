@@ -18,13 +18,18 @@ const Header = ({ onThemeChange }) => {
   }, [screenWidth]);
 
   const handleScreenWidth = event => {
-    setScreenWidth(event.target.innerWidth);
+    const viewportWidth = parseInt(event.target.innerWidth);
+    if (viewportWidth >= parseInt(sizes.tablet)) {
+      setIsMenuOpen(false);
+    }
+    setScreenWidth(viewportWidth);
   };
 
   const toggleMenu = () => {
     document.querySelector('body').classList.toggle('backdrop');
     setIsMenuOpen(!isMenuOpen);
   };
+
   return (
     <>
       <Headroom style={{ zIndex: 999 }}>
@@ -40,7 +45,7 @@ const Header = ({ onThemeChange }) => {
               <a href="/" style={{ fontSize: 28 }}>
                 Logo
               </a>
-              {parseInt(screenWidth) >= parseInt(sizes.tablet) ? (
+              {screenWidth >= parseInt(sizes.tablet) ? (
                 <ul
                   style={{
                     display: 'grid',
