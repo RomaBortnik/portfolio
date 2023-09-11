@@ -19,7 +19,7 @@ export const MenuBackdrop = styled.div`
 `;
 
 export const MenuContainer = styled.div`
-  padding: 12px;
+  padding: 24px;
   margin-left: auto;
   width: 75%;
   height: 100%;
