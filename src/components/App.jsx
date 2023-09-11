@@ -3,13 +3,13 @@ import SectionEducation from './SectionEducation';
 // import SectionExperience from './SectionExperience';
 import Hero from './Hero';
 import SectionProjects from './SectionProjects';
-// import SectionContacts from './SectionContacts';
 import ScrollTopButton from './ScrollTopButton';
 import { ThemeProvider } from '@emotion/react';
 import { useState } from 'react';
 import { theme } from 'styles';
 import { StyledWrapper } from './Wrapper/Wrapper.styled';
 import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
+import Particle from './Particle';
 
 export const App = () => {
   const [currentTheme, setCurrentTheme] = useState(() => {
@@ -26,13 +26,15 @@ export const App = () => {
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
+        <Particle theme={currentTheme}></Particle>
         <Header onThemeChange={handleTheme} />
-        <Hero />
-        <SectionEducation />
-        {/* <SectionExperience /> */}
-        <SectionProjects />
-        {/* <SectionContacts /> */}
-        <ScrollTopButton />
+        <main>
+          <Hero />
+          <SectionEducation />
+          {/* <SectionExperience /> */}
+          <SectionProjects />
+          <ScrollTopButton />
+        </main>
       </StyledWrapper>
     </ThemeProvider>
   );

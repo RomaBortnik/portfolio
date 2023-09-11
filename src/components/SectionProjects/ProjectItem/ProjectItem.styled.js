@@ -54,7 +54,7 @@ export const ProjectOverlay = styled.div`
   background-color: ${props => props.theme.colors.projectOverlayBgd};
   color: #fff;
   text-align: justify;
-  padding: 16px;
+  padding: 12px;
   font-size: 20px;
   border-radius: 12px;
   transform: scale(0);

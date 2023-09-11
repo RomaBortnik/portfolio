@@ -9,6 +9,7 @@ export const sizes = {
 
 export const theme = Object.freeze({
   dark: {
+    name: 'dark',
     colors: {
       background: '#1f1f1f', // Background color
       mainTextColor: '#fff', // Main text color
@@ -20,6 +21,7 @@ export const theme = Object.freeze({
     },
   },
   light: {
+    name: 'light',
     colors: {
       background: '#fff', // Background color
       mainTextColor: '#000', // Main text color
