@@ -12,6 +12,8 @@ export const MenuBackdrop = styled.div`
   opacity: 0;
   transition: width ${baseTransition}, opacity ${baseTransition};
   overflow: hidden;
+  display: grid;
+  grid-template-rows: 100%;
 
   &.active {
     width: 100%;
