@@ -25,84 +25,90 @@ const Header = ({ onThemeChange }) => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <Headroom style={{ zIndex: 999 }}>
-      <StyledHeader>
-        <SectionContainer>
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-            }}
-          >
-            <a href="/" style={{ fontSize: 28 }}>
-              Logo
-            </a>
-            {parseInt(screenWidth) >= parseInt(sizes.tablet) ? (
-              <ul
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
-                  fontSize: 20,
-                  width: '70%',
-                  marginLeft: 'auto',
-                }}
-              >
-                <li
+    <>
+      <Headroom style={{ zIndex: 999 }}>
+        <StyledHeader>
+          <SectionContainer>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+              }}
+            >
+              <a href="/" style={{ fontSize: 28 }}>
+                Logo
+              </a>
+              {parseInt(screenWidth) >= parseInt(sizes.tablet) ? (
+                <ul
                   style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <a href="#education">Education</a>
-                </li>
-                <li
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <a href="#experience">Experience</a>
-                </li>
-                <li
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <a href="#projects">Projects</a>
-                </li>
-                <li
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <ThemeSwitcher onThemeChange={onThemeChange} />
-                </li>
-              </ul>
-            ) : (
-              <>
-                <button
-                  style={{
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
+                    fontSize: 20,
+                    width: '70%',
                     marginLeft: 'auto',
                   }}
-                  type="button"
-                  onClick={toggleMenu}
                 >
-                  <SvgIcon w={40} h={40} use={`${sprite}#icon-menu`}></SvgIcon>
-                </button>
-              </>
-            )}
-          </div>
-        </SectionContainer>
-        <BurgerMenu menuStatus={isMenuOpen} onClose={toggleMenu}></BurgerMenu>
-      </StyledHeader>
-    </Headroom>
+                  <li
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <a href="#education">Education</a>
+                  </li>
+                  <li
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <a href="#experience">Experience</a>
+                  </li>
+                  <li
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <a href="#projects">Projects</a>
+                  </li>
+                  <li
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <ThemeSwitcher onThemeChange={onThemeChange} />
+                  </li>
+                </ul>
+              ) : (
+                <>
+                  <button
+                    style={{
+                      marginLeft: 'auto',
+                    }}
+                    type="button"
+                    onClick={toggleMenu}
+                  >
+                    <SvgIcon
+                      w={40}
+                      h={40}
+                      use={`${sprite}#icon-menu`}
+                    ></SvgIcon>
+                  </button>
+                </>
+              )}
+            </div>
+          </SectionContainer>
+        </StyledHeader>
+      </Headroom>
+      <BurgerMenu menuStatus={isMenuOpen} onClose={toggleMenu}></BurgerMenu>
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ export const MenuContainer = styled.div`
   top: 0;
   right: 0;
   width: 0;
-  height: 100vh;
+  height: 100%;
   z-index: 1000;
   // transform: translateX(100%);
   background-color: ${props => props.theme.colors.background};
