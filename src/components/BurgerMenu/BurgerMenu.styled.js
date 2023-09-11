@@ -25,7 +25,7 @@ export const MenuBackdrop = styled.div`
 export const MenuContainer = styled.div`
   margin-left: auto;
   width: 80%;
-  height: 100vh;
+  height: 100%;
 
   background-color: ${props => props.theme.colors.background};
   transition: transform ${baseTransition}, width ${baseTransition};
