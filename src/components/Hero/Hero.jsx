@@ -12,7 +12,7 @@ import {
 
 const Hero = () => {
   return (
-    <SectionHero>
+    <SectionHero id={'about'}>
       <SectionContainer>
         <Reveal>
           <HeroContainer>

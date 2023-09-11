@@ -9,6 +9,6 @@ export const StyledSection = styled.section`
   }
 
   @media screen and (${devices.desktop}) {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 `;

@@ -11,11 +11,10 @@ const Particle = ({ theme }) => {
   return (
     <Particles
       id="tsparticles"
-      options={
-        theme.name === 'dark'
-          ? particlesConfig('#fff', '#232741')
-          : particlesConfig('#000', '#fff')
-      }
+      options={particlesConfig(
+        theme.colors.mainTextColor,
+        theme.colors.background
+      )}
       init={particlesInit}
     />
   );

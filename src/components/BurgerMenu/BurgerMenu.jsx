@@ -1,8 +1,8 @@
-import { MenuBackdrop, MenuContainer } from './BurgerMenu.styled';
+import { CloseBtn, MenuBackdrop, MenuContainer } from './BurgerMenu.styled';
 import sprite from '../../images/icons.svg';
 import SvgIcon from 'components/SvgIcon';
 
-const BurgerMenu = ({ menuStatus, onClose }) => {
+const BurgerMenu = ({ menuStatus, onClose, children }) => {
   const handleBackdropClick = e => {
     if (e.target === e.currentTarget) {
       onClose();
@@ -14,9 +14,10 @@ const BurgerMenu = ({ menuStatus, onClose }) => {
       className={`${menuStatus ? 'active' : 'not-active'}`}
     >
       <MenuContainer>
-        <button type="button" onClick={() => onClose()}>
-          <SvgIcon w={40} h={40} use={`${sprite}#icon-close-big`}></SvgIcon>
-        </button>
+        <CloseBtn type="button" onClick={() => onClose()}>
+          <SvgIcon w={48} h={48} use={`${sprite}#icon-close-big`}></SvgIcon>
+        </CloseBtn>
+        {children}
       </MenuContainer>
     </MenuBackdrop>
   );

@@ -19,9 +19,17 @@ export const MenuBackdrop = styled.div`
 `;
 
 export const MenuContainer = styled.div`
+  padding: 12px;
   margin-left: auto;
   width: 75%;
   height: 100%;
   background-color: ${props => props.theme.colors.background};
   transition: transform ${baseTransition}, width ${baseTransition};
+`;
+
+export const CloseBtn = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
 `;
