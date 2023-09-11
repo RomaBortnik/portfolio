@@ -8,10 +8,9 @@ export const MenuContainer = styled.div`
   width: 0;
   height: 100vh;
   z-index: 1000;
-  transform: translateX(100%);
+  // transform: translateX(100%);
   background-color: ${props => props.theme.colors.background};
   transition: transform ${baseTransition}, width ${baseTransition};
-  transform: scale(0);
 
   &.active {
     transform: translateX(0);
