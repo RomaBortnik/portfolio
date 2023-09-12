@@ -4,12 +4,12 @@ import { devices } from 'styles';
 export const NavList = styled.ul`
   @media screen and (${devices.nottabletanddesktop}) {
     display: grid;
-    grid-template-rows: 15vh 15vh 15vh 15vh 20vh;
+    height: 60vh;
   }
 
-  /* @media screen and (max-height: 375px) {
-    grid-template-rows: 15vh 15vh 15vh 15vh 10vh;
-  } */
+  @media screen and (max-height: 414px) {
+    height: 75vh;
+  }
 
   @media screen and (${devices.tablet}) {
     display: flex;
@@ -27,12 +27,7 @@ export const NavListItem = styled.li`
   align-items: center;
 
   @media screen and (${devices.nottabletanddesktop}) {
-    font-size: 32px;
-
-    &:last-of-type {
-      align-items: center;
-      margin-left: auto;
-    }
+    font-size: 36px;
   }
   @media screen and (${devices.tablet}) {
     justify-content: center;
@@ -41,5 +36,9 @@ export const NavListItem = styled.li`
 
   @media screen and (${devices.desktop}) {
     font-size: 26px;
+  }
+
+  @media screen and (max-height: 414px) {
+    font-size: 28px;
   }
 `;

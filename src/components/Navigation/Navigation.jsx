@@ -1,8 +1,7 @@
-import ThemeSwitcher from 'components/ThemeSwitcher';
 import { sections } from 'utils/sections';
 import { NavList, NavListItem } from './Navigation.styled';
 
-const Navigation = ({ onThemeChange, onClose }) => {
+const Navigation = ({ onClose }) => {
   return (
     <NavList>
       {sections.map((section, index) => (
@@ -10,9 +9,6 @@ const Navigation = ({ onThemeChange, onClose }) => {
           <a href={`#${section.toLowerCase()}`}>{section}</a>
         </NavListItem>
       ))}
-      <NavListItem>
-        <ThemeSwitcher onThemeChange={onThemeChange} />
-      </NavListItem>
     </NavList>
   );
 };

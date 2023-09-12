@@ -20,7 +20,7 @@ export const MenuBackdrop = styled.div`
 `;
 
 export const MenuContainer = styled.div`
-  padding: 12px 24px;
+  padding: 0 24px;
   margin-left: auto;
   width: 75%;
   height: 100%;
@@ -28,9 +28,19 @@ export const MenuContainer = styled.div`
   transition: background-color ${baseTransition}, width ${baseTransition};
 `;
 
+export const FlexContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export const CloseBtn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
+  height: 10vh;
+
+  @media screen and (max-height: 414px) {
+    height: 20vh;
+  }
 `;
