@@ -6,15 +6,16 @@ export const MenuBackdrop = styled.div`
   top: 0;
   right: 0;
   z-index: 1000;
-  width: 0;
+  width: 100%;
   height: 100%;
+  transform: translateX(100%);
   background-color: rgba(0, 0, 0, 0.4);
   display: grid;
   grid-template-rows: 100%;
-  transition: width ${baseTransition};
+  transition: transform ${baseTransition};
 
   &.active {
-    width: 100%;
+    transform: translateX(0);
   }
 `;
 
@@ -32,5 +33,4 @@ export const CloseBtn = styled.button`
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  /* height: 10vh; */
 `;

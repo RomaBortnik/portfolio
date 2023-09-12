@@ -4,8 +4,7 @@ import { devices } from 'styles';
 export const NavList = styled.ul`
   @media screen and (${devices.nottabletanddesktop}) {
     display: grid;
-    grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
-    /* height: 100%; */
+    grid-template-rows: 15vh 15vh 15vh 15vh 20vh;
   }
 
   /* @media screen and (max-height: 375px) {

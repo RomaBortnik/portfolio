@@ -84,14 +84,12 @@ export const GlobalStyles = css`
 
   html {
     scroll-behavior: smooth;
-    width: 100vw;
   }
 
   body {
-    width: 100vw;
     font-family: 'Architects Daughter', 'Roboto', 'Kalam', serif, sans-serif;
-    min-height: 100vh;
     font-style: normal;
+    overflow-x: hidden;
   }
 
   body.backdrop {

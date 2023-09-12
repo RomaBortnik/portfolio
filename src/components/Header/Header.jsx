@@ -61,11 +61,11 @@ const Header = ({ onThemeChange }) => {
           </SectionContainer>
         </StyledHeader>
       </Headroom>
-      <BurgerMenu menuStatus={isMenuOpen} onClose={toggleMenu}>
-        <nav>
-          <Navigation onThemeChange={onThemeChange}></Navigation>
-        </nav>
-      </BurgerMenu>
+      <BurgerMenu
+        onThemeChange={onThemeChange}
+        menuStatus={isMenuOpen}
+        onClose={toggleMenu}
+      ></BurgerMenu>
     </>
   );
 };
