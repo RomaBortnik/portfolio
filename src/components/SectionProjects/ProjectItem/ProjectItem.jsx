@@ -32,6 +32,7 @@ const ProjectItem = ({ project }) => {
             src={image}
             alt={altText}
             min-width="320"
+            loading="lazy"
           />
         </picture>
       </ProjectThumb>
