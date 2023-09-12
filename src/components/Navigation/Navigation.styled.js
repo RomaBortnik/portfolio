@@ -5,8 +5,12 @@ export const NavList = styled.ul`
   @media screen and (${devices.nottabletanddesktop}) {
     display: grid;
     grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
-    height: 100vh;
+    /* height: 100%; */
   }
+
+  /* @media screen and (max-height: 375px) {
+    grid-template-rows: 15vh 15vh 15vh 15vh 10vh;
+  } */
 
   @media screen and (${devices.tablet}) {
     display: flex;
@@ -27,7 +31,7 @@ export const NavListItem = styled.li`
     font-size: 32px;
 
     &:last-of-type {
-      align-items: flex-end;
+      align-items: center;
       margin-left: auto;
     }
   }
@@ -38,9 +42,5 @@ export const NavListItem = styled.li`
 
   @media screen and (${devices.desktop}) {
     font-size: 26px;
-  }
-
-  @media screen and (max-height: 375px) {
-    font-size: 20px;
   }
 `;

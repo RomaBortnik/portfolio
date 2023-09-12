@@ -32,5 +32,5 @@ export const CloseBtn = styled.button`
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  height: 10vh;
+  /* height: 10vh; */
 `;
