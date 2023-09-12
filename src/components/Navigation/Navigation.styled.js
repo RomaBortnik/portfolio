@@ -8,7 +8,7 @@ export const NavList = styled.ul`
   }
 
   @media screen and (max-height: 414px) {
-    height: 75vh;
+    height: 70vh;
   }
 
   @media screen and (${devices.tablet}) {
