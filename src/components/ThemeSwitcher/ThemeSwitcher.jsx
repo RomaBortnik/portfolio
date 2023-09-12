@@ -30,7 +30,7 @@ const ThemeSwitcher = ({ onThemeChange }) => {
       }}
     >
       <motion.div layout className="handle">
-        <AnimatePresence mode="wait" initial={false}>
+        <AnimatePresence mode="popLayout" initial={false}>
           <motion.i
             className={`icon fi-rr-${currentTheme === 'dark' ? 'moon' : 'sun'}`}
             key={currentTheme === 'dark' ? 'moon' : 'sun'}
