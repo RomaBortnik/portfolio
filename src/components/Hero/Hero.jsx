@@ -19,7 +19,7 @@ const Hero = () => {
             <HeroTextContainer>
               <HeroMainText>Hello, World</HeroMainText>
               <p>
-                I'm <TextAnimation text={heroAnimatedText} />
+                &#60;I'm <TextAnimation text={heroAnimatedText} />
               </p>
             </HeroTextContainer>
             <HeroAnimation />

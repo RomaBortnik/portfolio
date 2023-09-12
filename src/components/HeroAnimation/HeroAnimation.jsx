@@ -1,8 +1,8 @@
-import animation from '../../animations/heroAnimation.json';
+import animation from '../../animations/heroAnimation2.json';
 import Lottie from 'lottie-react';
 
 const HeroAnimation = () => {
-  return <Lottie style={{}} animationData={animation} loop />;
+  return <Lottie animationData={animation} loop />;
 };
 
 export default HeroAnimation;

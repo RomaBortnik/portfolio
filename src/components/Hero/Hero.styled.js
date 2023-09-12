@@ -14,7 +14,7 @@ export const HeroContainer = styled.ul`
 
   @media screen and (${devices.tablet}) {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
   }
 `;
 
@@ -22,7 +22,7 @@ export const HeroTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 30px;
+  font-size: 28px;
 
   @media screen and (${devices.tablet}) {
     font-size: 28px;
