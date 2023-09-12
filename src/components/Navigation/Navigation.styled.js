@@ -4,7 +4,7 @@ import { devices } from 'styles';
 export const NavList = styled.ul`
   @media screen and (${devices.nottabletanddesktop}) {
     display: grid;
-    grid-template-rows: 15vh 15vh 15vh 15vh 20vh;
+    grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
     height: 100vh;
   }
 
@@ -40,7 +40,7 @@ export const NavListItem = styled.li`
     font-size: 26px;
   }
 
-  @media screen and (max-height: 300px) {
+  @media screen and (max-height: 375px) {
     font-size: 20px;
   }
 `;
