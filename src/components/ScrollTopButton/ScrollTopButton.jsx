@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { TopButton } from './ScrollTopButton.styled';
 import SvgIcon from 'components/SvgIcon';
-import icon from '../../icons/iconTop.svg';
+import sprite from '../../images/icons.svg';
 
 const ScrollTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -19,16 +19,15 @@ const ScrollTopButton = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'smooth',
     });
   };
   return (
     <TopButton isVisible={isVisible} onClick={handleClick} style={{}}>
       <SvgIcon
         style={{ fill: 'black' }}
-        w={60}
-        h={60}
-        use={`${icon}#upper-arrow`}
+        w={40}
+        h={40}
+        use={`${sprite}#icon-hand-up`}
       />
     </TopButton>
   );

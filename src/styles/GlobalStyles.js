@@ -7,13 +7,6 @@ import woff2RobotoMedium from '../fonts/AnyConv.com__Roboto-Medium.woff2';
 import woffRobotoBold from '../fonts/AnyConv.com__Roboto-Bold.woff';
 import woff2RobotoBold from '../fonts/AnyConv.com__Roboto-Bold.woff2';
 
-import woffKalamLight from '../fonts/AnyConv.com__Kalam-Light.woff';
-import woff2KalamLight from '../fonts/AnyConv.com__Kalam-Light.woff2';
-import woffKalamRegular from '../fonts/AnyConv.com__Kalam-Regular.woff';
-import woff2KalamRegular from '../fonts/AnyConv.com__Kalam-Regular.woff2';
-import woffKalamBold from '../fonts/AnyConv.com__Kalam-Bold.woff';
-import woff2KalamBold from '../fonts/AnyConv.com__Kalam-Bold.woff2';
-
 import woffArchitectsDaughterRegular from '../fonts/AnyConv.com__ArchitectsDaughter-Regular.woff';
 import woff2ArchitectsDaughterRegular from '../fonts/AnyConv.com__ArchitectsDaughter-Regular.woff2';
 
@@ -43,30 +36,6 @@ export const GlobalStyles = css`
   }
 
   @font-face {
-    font-family: 'Kalam';
-    font-weight: 300;
-    font-style: normal;
-    src: url('${woffKalamLight}') format('woff'),
-      url('${woff2KalamLight}') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Kalam';
-    font-weight: 400;
-    font-style: normal;
-    src: url('${woffKalamRegular}') format('woff'),
-      url('${woff2KalamRegular}') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Kalam';
-    font-weight: 700;
-    font-style: normal;
-    src: url('${woffKalamBold}') format('woff'),
-      url('${woff2KalamBold}') format('woff2');
-  }
-
-  @font-face {
     font-family: 'Architects Daughter';
     font-weight: 400;
     font-style: normal;
@@ -87,7 +56,7 @@ export const GlobalStyles = css`
   }
 
   body {
-    font-family: 'Architects Daughter', 'Roboto', 'Kalam', serif, sans-serif;
+    font-family: 'Architects Daughter', 'Roboto', serif, sans-serif;
     font-style: normal;
     overflow-x: hidden;
   }
