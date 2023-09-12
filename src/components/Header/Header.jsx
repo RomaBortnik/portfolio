@@ -1,12 +1,18 @@
 import Headroom from 'react-headroom';
 import SectionContainer from 'components/SectionContainer';
-import { HeaderContainer, Logo, StyledHeader } from './Header.styled';
+import {
+  HeaderContainer,
+  HeaderFlexContainer,
+  Logo,
+  StyledHeader,
+} from './Header.styled';
 import SvgIcon from 'components/SvgIcon';
 import sprite from '../../images/icons.svg';
 import { useEffect, useState } from 'react';
 import { sizes } from 'styles';
 import BurgerMenu from 'components/BurgerMenu';
 import Navigation from 'components/Navigation';
+import ThemeSwitcher from 'components/ThemeSwitcher';
 
 const Header = ({ onThemeChange }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,9 +49,12 @@ const Header = ({ onThemeChange }) => {
             <HeaderContainer>
               <Logo href="/">Logo</Logo>
               {screenWidth >= parseInt(sizes.tablet) ? (
-                <nav>
-                  <Navigation onThemeChange={onThemeChange}></Navigation>
-                </nav>
+                <HeaderFlexContainer>
+                  <nav>
+                    <Navigation></Navigation>
+                  </nav>
+                  <ThemeSwitcher onThemeChange={onThemeChange} />
+                </HeaderFlexContainer>
               ) : (
                 <>
                   <button type="button" onClick={toggleMenu}>

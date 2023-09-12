@@ -32,3 +32,9 @@ export const HeaderContainer = styled.div`
 export const Logo = styled.div`
   font-size: 28px;
 `;
+
+export const HeaderFlexContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+`;
