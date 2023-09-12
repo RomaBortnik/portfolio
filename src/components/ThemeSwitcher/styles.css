@@ -27,6 +27,12 @@
     height: 28px;
     width: 72px;
   }
+
+  @media screen and (max-height: 300px) {
+    height: 24px;
+    width: 72px;
+    padding: 0 2px;
+  }
 }
 .handle {
   height: 30px;
@@ -47,6 +53,11 @@
     height: 24px;
     width: 24px;
   }
+
+  @media screen and (max-height: 300px) {
+    height: 22px;
+    width: 22px;
+  }
 }
 .icon {
   color: #f88748;
@@ -61,6 +72,12 @@
   }
 
   @media screen and (min-width: 1440px) {
+    height: 18px;
+    width: 18px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-height: 300px) {
     height: 18px;
     width: 18px;
     font-size: 18px;

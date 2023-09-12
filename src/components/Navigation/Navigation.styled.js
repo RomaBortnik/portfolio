@@ -11,20 +11,19 @@ export const NavList = styled.ul`
   @media screen and (${devices.tablet}) {
     display: flex;
     gap: 36px;
-    font-size: 20px;
     margin-left: auto;
   }
 
   @media screen and (${devices.desktop}) {
     gap: 80px;
-    font-size: 24px;
   }
 `;
 
 export const NavListItem = styled.li`
+  display: flex;
+  align-items: center;
+
   @media screen and (${devices.nottabletanddesktop}) {
-    display: flex;
-    align-items: center;
     font-size: 32px;
 
     &:last-of-type {
@@ -33,8 +32,15 @@ export const NavListItem = styled.li`
     }
   }
   @media screen and (${devices.tablet}) {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    font-size: 20px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    font-size: 26px;
+  }
+
+  @media screen and (max-height: 300px) {
+    font-size: 20px;
   }
 `;
