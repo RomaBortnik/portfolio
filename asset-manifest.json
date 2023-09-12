@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6bef479e.css",
-    "main.js": "/portfolio/static/js/main.d745ee7e.js",
+    "main.js": "/portfolio/static/js/main.778e3378.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/portfolio/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/portfolio/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
     "static/media/uicons-solid-rounded-3CHVJWAY.eot": "/portfolio/static/media/uicons-solid-rounded-3CHVJWAY.db4b69f1f366dd7c3690.eot",
@@ -11,10 +11,7 @@
     "static/media/AnyConv.com__Roboto-Bold.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Bold.36621534150f8386a36b.woff2",
     "static/media/AnyConv.com__Roboto-Medium.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Medium.4e1a262de8218277f21e.woff2",
     "static/media/AnyConv.com__Roboto-Regular.woff2": "/portfolio/static/media/AnyConv.com__Roboto-Regular.936f5f36409873f2d515.woff2",
-    "static/media/AnyConv.com__Kalam-Regular.woff2": "/portfolio/static/media/AnyConv.com__Kalam-Regular.87b0507690473f513632.woff2",
-    "static/media/AnyConv.com__Kalam-Bold.woff2": "/portfolio/static/media/AnyConv.com__Kalam-Bold.b894fdd01850373c585c.woff2",
     "static/media/uicons-regular-rounded-HBITOZ62.woff": "/portfolio/static/media/uicons-regular-rounded-HBITOZ62.69c7b9b2dd5cbc1ec5b6.woff",
-    "static/media/AnyConv.com__Kalam-Light.woff2": "/portfolio/static/media/AnyConv.com__Kalam-Light.e47ab11ba4dc5ac12912.woff2",
     "static/media/AnyConv.com__Roboto-Bold.woff": "/portfolio/static/media/AnyConv.com__Roboto-Bold.1a54400c5ab17a83610c.woff",
     "static/media/uicons-bold-rounded-O7JX4SAW.woff": "/portfolio/static/media/uicons-bold-rounded-O7JX4SAW.b23c468d33d10382a8ee.woff",
     "static/media/AnyConv.com__Roboto-Regular.woff": "/portfolio/static/media/AnyConv.com__Roboto-Regular.f2478ee3ee15376b99d1.woff",
@@ -25,10 +22,7 @@
     "static/media/uicons-bold-straight-IHIWRN4D.woff": "/portfolio/static/media/uicons-bold-straight-IHIWRN4D.8da0ccd92a24124f94c9.woff",
     "static/media/uicons-bold-rounded-CGKSAYQ5.woff2": "/portfolio/static/media/uicons-bold-rounded-CGKSAYQ5.da3d9f9a1f36d639394e.woff2",
     "static/media/uicons-solid-straight-PAVUPHY7.woff": "/portfolio/static/media/uicons-solid-straight-PAVUPHY7.dc6edd75fd9853fb9839.woff",
-    "static/media/AnyConv.com__Kalam-Bold.woff": "/portfolio/static/media/AnyConv.com__Kalam-Bold.b57a4b8fc64f331e6713.woff",
-    "static/media/AnyConv.com__Kalam-Regular.woff": "/portfolio/static/media/AnyConv.com__Kalam-Regular.a773c1942fe819279526.woff",
     "static/media/uicons-solid-rounded-GWKJW5HG.woff2": "/portfolio/static/media/uicons-solid-rounded-GWKJW5HG.407328d53e6b6e596075.woff2",
-    "static/media/AnyConv.com__Kalam-Light.woff": "/portfolio/static/media/AnyConv.com__Kalam-Light.ec44444cd91ea6d11056.woff",
     "static/media/uicons-regular-straight-JIQ24FYG.woff2": "/portfolio/static/media/uicons-regular-straight-JIQ24FYG.aebfd72bbfa6c18b0043.woff2",
     "static/media/uicons-bold-straight-BZ3JDLFC.woff2": "/portfolio/static/media/uicons-bold-straight-BZ3JDLFC.56ed43bf880356065091.woff2",
     "static/media/uicons-solid-straight-47DPGFQO.woff2": "/portfolio/static/media/uicons-solid-straight-47DPGFQO.4a03d91b191d27afc043.woff2",
@@ -37,14 +31,13 @@
     "static/media/uicons-brands-T5E3MAIR.woff": "/portfolio/static/media/uicons-brands-T5E3MAIR.475adb95157e5c727143.woff",
     "static/media/uicons-brands-MQU4AHEF.woff2": "/portfolio/static/media/uicons-brands-MQU4AHEF.4dc54c67b0130a18171d.woff2",
     "static/media/AnyConv.com__ArchitectsDaughter-Regular.woff": "/portfolio/static/media/AnyConv.com__ArchitectsDaughter-Regular.406639e51e84df7854f0.woff",
-    "static/media/icons.svg": "/portfolio/static/media/icons.7264b0602f95bc82044e1df588e1b28b.svg",
+    "static/media/icons.svg": "/portfolio/static/media/icons.ae926b33507a35044e70b56f26b53306.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/iconTop.svg": "/portfolio/static/media/iconTop.3bc4cb4e4375f9de74d7b7fe70435a3c.svg",
     "main.6bef479e.css.map": "/portfolio/static/css/main.6bef479e.css.map",
-    "main.d745ee7e.js.map": "/portfolio/static/js/main.d745ee7e.js.map"
+    "main.778e3378.js.map": "/portfolio/static/js/main.778e3378.js.map"
   },
   "entrypoints": [
     "static/css/main.6bef479e.css",
-    "static/js/main.d745ee7e.js"
+    "static/js/main.778e3378.js"
   ]
 }
