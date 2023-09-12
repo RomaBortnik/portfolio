@@ -13,7 +13,7 @@ export const NavList = styled.ul`
 
   @media screen and (${devices.tablet}) {
     display: flex;
-    gap: 36px;
+    gap: 5vw;
     margin-left: auto;
   }
 
@@ -38,7 +38,7 @@ export const NavListItem = styled.li`
     font-size: 26px;
   }
 
-  @media screen and (max-height: 414px) {
+  @media screen and (max-height: 414px) and (${devices.nottabletanddesktop}) {
     font-size: 28px;
   }
 `;

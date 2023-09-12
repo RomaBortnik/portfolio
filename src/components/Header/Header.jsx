@@ -51,7 +51,7 @@ const Header = ({ onThemeChange }) => {
               {screenWidth >= parseInt(sizes.tablet) ? (
                 <HeaderFlexContainer>
                   <nav>
-                    <Navigation></Navigation>
+                    <Navigation />
                   </nav>
                   <ThemeSwitcher onThemeChange={onThemeChange} />
                 </HeaderFlexContainer>
