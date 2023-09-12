@@ -26,9 +26,9 @@ export const App = () => {
   return (
     <ThemeProvider theme={currentTheme}>
       <StyledWrapper>
-        <Particle theme={currentTheme}></Particle>
         <Header onThemeChange={handleTheme} />
         <main>
+          <Particle theme={currentTheme}></Particle>
           <Hero />
           <SectionEducation />
           {/* <SectionExperience /> */}
