@@ -47,7 +47,7 @@ const Header = ({ onThemeChange }) => {
         <StyledHeader>
           <SectionContainer>
             <HeaderContainer>
-              <Logo href="/">Logo</Logo>
+              <Logo href="/">&lt;Roman Bortnik&gt;</Logo>
               {screenWidth >= parseInt(sizes.tablet) ? (
                 <HeaderFlexContainer>
                   <nav>

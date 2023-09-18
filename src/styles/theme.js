@@ -29,7 +29,7 @@ export const theme = Object.freeze({
       mainTextColor: '#000', // Main text color
       accentTextColor:
         'radial-gradient(circle farthest-corner at 10% 20%,rgba(253, 203, 50, 1) 0%,rgba(244, 56, 98, 1) 100.2%)', // Accent text color
-      headerBackground: 'rgb(252, 250, 240)', // Header background color
+      headerBackground: 'rgb(252, 249, 220)', // Header background color
       scrollTopIconFill: '#fff', // ScrollTop icon fill color
       projectOverlayBgd: 'rgba(0, 0, 0, 0.4)', // Project overlay background color
       mainShadow:

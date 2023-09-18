@@ -10,6 +10,7 @@ import { theme } from 'styles';
 import { StyledWrapper } from './Wrapper/Wrapper.styled';
 import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
 import Particle from './Particle';
+import Footer from './Footer';
 
 export const App = () => {
   const [currentTheme, setCurrentTheme] = useState(() => {
@@ -35,6 +36,7 @@ export const App = () => {
           <SectionProjects />
           <ScrollTopButton />
         </main>
+        <Footer />
       </StyledWrapper>
     </ThemeProvider>
   );
