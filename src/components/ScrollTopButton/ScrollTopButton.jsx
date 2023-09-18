@@ -23,12 +23,7 @@ const ScrollTopButton = () => {
   };
   return (
     <TopButton isVisible={isVisible} onClick={handleClick} style={{}}>
-      <SvgIcon
-        style={{ fill: 'black' }}
-        w={40}
-        h={40}
-        use={`${sprite}#icon-hand-up`}
-      />
+      <SvgIcon w={32} h={32} use={`${sprite}#icon-hand-up`} />
     </TopButton>
   );
 };

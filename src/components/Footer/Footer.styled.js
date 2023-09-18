@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { devices } from 'styles';
 
 export const StyledFooter = styled.footer`
   padding: 80px 0 24px;
@@ -7,9 +8,12 @@ export const StyledFooter = styled.footer`
 `;
 
 export const FooterContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  @media screen and (${devices.desktop}) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
   /* justify-content: space-around; */
   /* margin-bottom: 16px; */
   /* gap: 60px; */
@@ -20,10 +24,10 @@ export const EmploymentOptions = styled.div`
   align-items: center;
   /* justify-content: center; */
   gap: 16px;
-  margin: 0 auto;
+  margin: 0 auto 24px;
   padding: 8px 16px;
   /* margin-bottom: 16px; */
-  border-radius: 12px;
+  border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.1);
   height: 100%;
   width: fit-content;

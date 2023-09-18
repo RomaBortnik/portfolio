@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter id={'contacts'}>
       <SectionContainer>
         <FooterContainer>
           <EmploymentOptions>

@@ -1,1 +1,7 @@
-export const sections = ['About', 'Education', 'Experience', 'Projects'];
+export const sections = [
+  'About',
+  'Education',
+  'Experience',
+  'Projects',
+  'Contacts',
+];
