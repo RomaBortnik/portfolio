@@ -145,22 +145,14 @@ export const LinkList = styled.ul`
 `;
 
 export const TechnologiesTitle = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 8px;
-
-  @media screen and (${devices.onlymobile}) {
-    font-size: 18px;
-  }
 `;
 
 export const Technologies = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   &:not(:last-of-type) {
     margin-right: 8px;
-  }
-
-  @media screen and (${devices.onlymobile}) {
-    font-size: 16px;
   }
 `;
