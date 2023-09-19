@@ -3,7 +3,7 @@ import { devices } from 'styles';
 
 export const StyledTitle = styled.h2`
   text-align: center;
-  font-size: 72px;
+  font-size: 64px;
   margin-bottom: 24px;
   background: ${props => props.theme.colors.accentTextColor};
   -webkit-background-clip: text;
