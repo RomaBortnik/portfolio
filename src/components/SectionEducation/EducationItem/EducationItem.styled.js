@@ -10,6 +10,11 @@ export const Item = styled.li`
 
 export const ItemContainer = styled.div`
   margin-bottom: 24px;
+
+  @media screen and (${devices.onlymobile}) {
+    margin-bottom: 12px;
+  }
+
   @media screen and (${devices.tablet}) {
     display: grid;
     align-items: center;
@@ -52,6 +57,11 @@ export const Title = styled.h2`
   font-size: 40px;
   margin-bottom: 12px;
 
+  @media screen and (${devices.onlymobile}) {
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+
   @media screen and (${devices.tablet}) {
     font-size: 46px;
     margin-bottom: 16px;
@@ -66,6 +76,11 @@ export const Degree = styled.p`
   font-size: 30px;
   margin-bottom: 12px;
 
+  @media screen and (${devices.onlymobile}) {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
   @media screen and (${devices.tablet}) {
     margin-bottom: 16px;
   }
@@ -74,6 +89,10 @@ export const Degree = styled.p`
 export const Descr = styled.p`
   font-size: 22px;
   color: grey;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 18px;
+  }
 
   @media screen and (${devices.tablet}) {
     font-size: 26px;

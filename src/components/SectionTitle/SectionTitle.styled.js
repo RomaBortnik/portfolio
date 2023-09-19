@@ -9,6 +9,10 @@ export const StyledTitle = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  @media screen and (${devices.onlymobile}) {
+    font-size: 56px;
+  }
+
   @media screen and (${devices.tablet}) {
     text-align: left;
     padding-left: 24px;

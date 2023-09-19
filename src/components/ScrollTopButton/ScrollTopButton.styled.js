@@ -13,7 +13,7 @@ export const TopButton = styled.div`
   border-radius: 12px;
   font-size: 24px;
   /* background: ${props => props.theme.colors.accentTextColor}; */
-  background-color: rgb(41, 90, 45);
+  background-color: ${props => props.theme.colors.scrollTopBgd};
   cursor: pointer;
   opacity: ${props => (props.isVisible ? 1 : 0)};
   transition: opacity ${baseTransition};

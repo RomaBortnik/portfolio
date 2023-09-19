@@ -22,6 +22,10 @@ export const Project = styled.li`
     filter: blur(4px);
   }
 
+  @media screen and (${devices.onlymobile}) {
+    height: 360px;
+  }
+
   @media screen and (${devices.nottabletanddesktop}) {
     &:not(:last-of-type) {
       margin-bottom: 24px;
@@ -62,9 +66,12 @@ export const ProjectOverlay = styled.div`
   display: flex;
   flex-direction: column;
 
+  @media screen and (${devices.onlymobile}) {
+    padding: 8px;
+  }
+
   @media screen and (${devices.tablet}) {
-    border-radius: 24px;
-    padding: 16px;
+    padding: 8px 16px;
   }
 
   @media screen and (${devices.desktop}) {
@@ -77,6 +84,10 @@ export const ProjectContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
+
+  @media screen and (${devices.onlymobile}) {
+    margin-bottom: 4px;
+  }
 `;
 
 export const ProjectTitle = styled.h2`
@@ -85,7 +96,7 @@ export const ProjectTitle = styled.h2`
   margin: auto 0;
 
   @media screen and (${devices.tablet}) {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   @media screen and (${devices.desktop}) {
@@ -103,6 +114,10 @@ export const ProjectStatus = styled.p`
 export const ProjectDescr = styled.p`
   font-size: 14px;
 
+  @media screen and (${devices.onlymobile}) {
+    font-size: 12px;
+  }
+
   @media screen and (${devices.tablet}) {
     font-size: 16px;
   }
@@ -118,6 +133,11 @@ export const LinkList = styled.ul`
   gap: 12px;
   margin: auto auto 0;
 
+  @media screen and (${devices.onlymobile}) {
+    margin-right: 0;
+    gap: 8px;
+  }
+
   @media screen and (${devices.tablet}) {
     margin-right: 0;
     gap: 16px;
@@ -126,7 +146,11 @@ export const LinkList = styled.ul`
 
 export const TechnologiesTitle = styled.p`
   font-size: 20px;
-  margin-top: 12px;
+  margin-top: 8px;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 18px;
+  }
 `;
 
 export const Technologies = styled.p`
@@ -137,5 +161,9 @@ export const Technologies = styled.p`
   -webkit-text-fill-color: transparent;
   &:not(:last-of-type) {
     margin-right: 8px;
+  }
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 16px;
   }
 `;

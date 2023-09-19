@@ -30,10 +30,8 @@ const Hero = () => {
                   <a href="#contacts">say hello!</a>
                 </AccentText>
               </HeroDescr>
-              {/* <p>
-                &#60;I'm <TextAnimation text={heroAnimatedText} />
-              </p> */}
             </HeroTextContainer>
+
             <Animation animation={animation} />
           </HeroContainer>
         </Reveal>

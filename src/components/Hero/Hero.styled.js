@@ -34,9 +34,13 @@ export const HeroTextContainer = styled.div`
 `;
 
 export const HeroMainText = styled.p`
-  font-size: 60px;
+  font-size: 52px;
   line-height: 1.12;
   margin-bottom: 12px;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 40px;
+  }
 
   @media screen and (${devices.tablet}) {
     font-size: 54px;
@@ -51,6 +55,10 @@ export const HeroMainText = styled.p`
 
 export const HeroDescr = styled.p`
   font-size: 26px;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 20px;
+  }
 
   @media screen and (${devices.tablet}) {
     font-size: 22px;

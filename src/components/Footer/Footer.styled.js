@@ -1,11 +1,15 @@
 import styled from '@emotion/styled';
-import { baseTransition, devices } from 'styles';
+import { devices } from 'styles';
 
 export const StyledFooter = styled.footer`
-  padding: 80px 0 24px;
+  padding: 80px 0 12px;
   margin-top: 100px;
-  background-color: ${props => props.theme.colors.headerBackground};
+  background-color: ${props => props.theme.colors.notMainBackground};
   color: rgb(245, 252, 211);
+
+  @media screen and (${devices.onlymobile}) {
+    padding: 40px 0 16px;
+  }
 `;
 
 export const FooterContainer = styled.div`
@@ -29,9 +33,30 @@ export const EmploymentOptions = styled.div`
   padding: 8px 16px;
   /* margin-bottom: 16px; */
   border-radius: 24px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: ${props => props.theme.colors.footerElementsBgd};
   height: 100%;
   width: fit-content;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+`;
+
+export const EmploymentLocation = styled.p`
+  @media screen and (${devices.onlymobile}) {
+    font-size: 20px;
+  }
+
+  font-size: 24px;
+`;
+
+export const EmploymentText = styled.p`
+  @media screen and (${devices.onlymobile}) {
+    font-size: 14px;
+  }
+
+  font-size: 18px;
 `;
 
 export const FooterLinkList = styled.ul`
@@ -41,26 +66,27 @@ export const FooterLinkList = styled.ul`
   /* color: #fff; */
   gap: 12px;
   margin-bottom: 24px;
-`;
 
-export const FooterLinkListItem = styled.li`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  cursor: pointer;
-  transition: transform ${baseTransition}, background-color ${baseTransition};
-
-  &:hover {
-    transform: scale(1.15);
-    background-color: rgba(255, 255, 255, 0.1);
+  @media screen and (${devices.onlymobile}) {
+    gap: 8px;
   }
 `;
 
-export const FooterLinkListRef = styled.a`
+export const CopyrightContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 48px;
+
+  @media screen and (${devices.onlymobile}) {
+    gap: 12px;
+  }
+`;
+
+export const CopyrightText = styled.p`
+  font-size: 16px;
+
+  @media screen and (${devices.onlymobile}) {
+    font-size: 12px;
+  }
 `;

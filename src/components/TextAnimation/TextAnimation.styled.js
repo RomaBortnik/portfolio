@@ -11,6 +11,10 @@ export const AnimatedText = styled(TypeAnimation)`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  @media screen and (${devices.onlymobile}) {
+    font-size: 20px;
+  }
+
   @media screen and (${devices.desktop}) {
     font-size: 36px;
   }

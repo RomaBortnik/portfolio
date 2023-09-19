@@ -4,7 +4,7 @@ import { baseTransition, devices } from 'styles';
 export const StyledHeader = styled.header`
   width: 100%;
   height: 60px;
-  background-color: ${props => props.theme.colors.headerBackground};
+  background-color: ${props => props.theme.colors.notMainBackground};
   display: flex;
   align-items: center;
   justify-content: center;

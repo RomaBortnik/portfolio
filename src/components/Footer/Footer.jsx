@@ -1,13 +1,16 @@
 import SectionContainer from 'components/SectionContainer';
 import SvgIcon from 'components/SvgIcon';
+import FooterLinkItem from './FooterLinkItem';
 import sprite from '../../images/icons.svg';
 import { links } from 'utils/links';
 import {
+  CopyrightContainer,
+  CopyrightText,
+  EmploymentLocation,
   EmploymentOptions,
+  EmploymentText,
   FooterContainer,
   FooterLinkList,
-  FooterLinkListItem,
-  FooterLinkListRef,
   StyledFooter,
 } from './Footer.styled';
 
@@ -19,38 +22,23 @@ const Footer = () => {
           <EmploymentOptions>
             <SvgIcon w={32} h={32} use={`${sprite}#icon-location`}></SvgIcon>
             <div>
-              <p style={{ fontSize: 24 }}>Lviv, Ukraine</p>
-              <p style={{ fontSize: 18 }}>
+              <EmploymentLocation>Lviv, Ukraine</EmploymentLocation>
+              <EmploymentText>
                 Remote / Office / Part-time / Freelance &#40;one-time
                 projects&#41;
-              </p>
+              </EmploymentText>
             </div>
           </EmploymentOptions>
           <div>
             <FooterLinkList>
-              {links.map(({ link, id, icon, name }) => (
-                <FooterLinkListItem key={id} title={name}>
-                  <FooterLinkListRef
-                    href={link}
-                    target={name === 'Gmail' ? '_self' : '_blank'}
-                    rel="noopener noreferrer"
-                  >
-                    <SvgIcon w={24} h={24} use={icon} />
-                  </FooterLinkListRef>
-                </FooterLinkListItem>
+              {links.map(link => (
+                <FooterLinkItem key={link.id} linkItem={link}></FooterLinkItem>
               ))}
             </FooterLinkList>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: 48,
-              }}
-            >
-              <p>&#169; 2023 Portfolio</p>
-              <p>Built by Roman Bortnik</p>
-            </div>
+            <CopyrightContainer>
+              <CopyrightText>&#169; 2023 Portfolio</CopyrightText>
+              <CopyrightText>Built by Roman Bortnik</CopyrightText>
+            </CopyrightContainer>
           </div>
         </FooterContainer>
       </SectionContainer>
