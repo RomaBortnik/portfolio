@@ -8,7 +8,8 @@ export const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${props => props.theme.colors.mainTextColor};
+  /* color: ${props => props.theme.colors.mainTextColor}; */
+  color: rgb(245, 252, 211);
   box-shadow: ${props => props.theme.colors.mainShadow};
 
   transition: background-color ${baseTransition}, color ${baseTransition},
@@ -34,7 +35,17 @@ export const Logo = styled.div`
 `;
 
 export const HeaderFlexContainer = styled.div`
+  @media screen and (${devices.nottabletanddesktop}) {
+    display: none;
+  }
+
   display: flex;
   align-items: center;
   gap: 5vw;
+`;
+
+export const MenuBtn = styled.button`
+  @media screen and (${devices.tablet}) {
+    display: none;
+  }
 `;

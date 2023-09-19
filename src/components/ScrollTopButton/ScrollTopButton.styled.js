@@ -12,11 +12,13 @@ export const TopButton = styled.div`
   height: 60px;
   border-radius: 12px;
   font-size: 24px;
-  background: ${props => props.theme.colors.accentTextColor};
+  /* background: ${props => props.theme.colors.accentTextColor}; */
+  background-color: rgb(41, 90, 45);
   cursor: pointer;
   opacity: ${props => (props.isVisible ? 1 : 0)};
   transition: opacity ${baseTransition};
-  color: ${props => props.theme.colors.scrollTopIconFill};
+  /* color: ${props => props.theme.colors.scrollTopIconFill}; */
+  color: rgb(245, 252, 211);
   z-index: 999;
 
   @media screen and (${devices.tablet}) {

@@ -12,7 +12,7 @@ const Particle = ({ theme }) => {
     <Particles
       id="tsparticles"
       options={particlesConfig(
-        theme.colors.mainTextColor,
+        theme.colors.particlesColor,
         theme.colors.background
       )}
       init={particlesInit}

@@ -18,6 +18,7 @@ export const theme = Object.freeze({
       headerBackground: '#0a0e25', // Header background color
       scrollTopIconFill: '#fff', // ScrollTop icon fill color
       projectOverlayBgd: 'rgba(0, 0, 0, 0.6)', // Project overlay background color
+      particlesColor: '#fff', // Color of particles circles
       mainShadow:
         '-4px 4px 8px 0px rgba(0, 0, 0, 0.1), 0px 4px 5px 0px rgba(0, 0, 0, 0.3), 0px 1px 10px 0px rgba(255, 255, 255, 0.3)', // Main shadow effect
     },
@@ -25,13 +26,14 @@ export const theme = Object.freeze({
   light: {
     name: 'light',
     colors: {
-      background: '#fff', // Background color
+      background: 'rgb(252, 253, 234)', // Background color
       mainTextColor: '#000', // Main text color
       accentTextColor:
         'radial-gradient(circle farthest-corner at 10% 20%,rgba(253, 203, 50, 1) 0%,rgba(244, 56, 98, 1) 100.2%)', // Accent text color
-      headerBackground: 'rgb(252, 249, 220)', // Header background color
+      headerBackground: 'rgb(61, 112, 65)', // Header background color
       scrollTopIconFill: '#fff', // ScrollTop icon fill color
       projectOverlayBgd: 'rgba(0, 0, 0, 0.4)', // Project overlay background color
+      particlesColor: 'rgb(55, 90, 27)', // Color of particles circles
       mainShadow:
         '-4px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(255, 255, 255, 0.12)', // Main shadow effect
     },

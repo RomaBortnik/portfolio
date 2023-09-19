@@ -8,10 +8,23 @@ import {
   ProjectTitle,
   ProjectDescr,
   LinkList,
+  Technologies,
+  TechnologiesTitle,
+  ProjectStatus,
+  ProjectContainer,
 } from './ProjectItem.styled';
 
 const ProjectItem = ({ project }) => {
-  const { name, mobileImage, image, altText, descr, media } = project;
+  const {
+    name,
+    mobileImage,
+    image,
+    altText,
+    technologies,
+    developedBy,
+    descr,
+    media,
+  } = project;
   return (
     <Project>
       {/* <Reveal> */}
@@ -38,8 +51,15 @@ const ProjectItem = ({ project }) => {
       </ProjectThumb>
 
       <ProjectOverlay className="overlay">
-        <ProjectTitle>{name}</ProjectTitle>
+        <ProjectContainer>
+          <ProjectTitle>{name}</ProjectTitle>
+          <ProjectStatus>{developedBy}</ProjectStatus>
+        </ProjectContainer>
+
         <ProjectDescr>{descr}</ProjectDescr>
+        <TechnologiesTitle>Technologies:</TechnologiesTitle>
+        <Technologies>{technologies}</Technologies>
+
         <LinkList>
           {media.map(project => (
             <LinkListItem key={project.id} project={project} />

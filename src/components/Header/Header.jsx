@@ -1,11 +1,5 @@
 import Headroom from 'react-headroom';
 import SectionContainer from 'components/SectionContainer';
-import {
-  HeaderContainer,
-  HeaderFlexContainer,
-  Logo,
-  StyledHeader,
-} from './Header.styled';
 import SvgIcon from 'components/SvgIcon';
 import sprite from '../../images/icons.svg';
 import { useEffect, useState } from 'react';
@@ -13,10 +7,16 @@ import { sizes } from 'styles';
 import BurgerMenu from 'components/BurgerMenu';
 import Navigation from 'components/Navigation';
 import ThemeSwitcher from 'components/ThemeSwitcher';
+import {
+  HeaderContainer,
+  HeaderFlexContainer,
+  Logo,
+  MenuBtn,
+  StyledHeader,
+} from './Header.styled';
 
 const Header = ({ onThemeChange }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const body = document.querySelector('body');
 
   useEffect(() => {
@@ -31,7 +31,6 @@ const Header = ({ onThemeChange }) => {
       ) {
         body.classList.remove('backdrop');
       }
-      setScreenWidth(viewportWidth);
     };
     window.addEventListener('resize', handleScreenWidth);
     return () => window.removeEventListener('resize', handleScreenWidth);
@@ -48,28 +47,22 @@ const Header = ({ onThemeChange }) => {
           <SectionContainer>
             <HeaderContainer>
               <Logo href="/">&lt;Logo&gt;</Logo>
-              {screenWidth >= parseInt(sizes.tablet) ? (
-                <HeaderFlexContainer>
-                  <nav>
-                    <Navigation />
-                  </nav>
-                  <ThemeSwitcher onThemeChange={onThemeChange} />
-                </HeaderFlexContainer>
-              ) : (
-                <>
-                  <button type="button" onClick={toggleMenu}>
-                    <SvgIcon
-                      w={40}
-                      h={40}
-                      use={`${sprite}#icon-menu`}
-                    ></SvgIcon>
-                  </button>
-                </>
-              )}
+
+              <HeaderFlexContainer>
+                <nav>
+                  <Navigation />
+                </nav>
+                <ThemeSwitcher onThemeChange={onThemeChange} />
+              </HeaderFlexContainer>
+
+              <MenuBtn type="button" onClick={toggleMenu}>
+                <SvgIcon w={40} h={40} use={`${sprite}#icon-menu`}></SvgIcon>
+              </MenuBtn>
             </HeaderContainer>
           </SectionContainer>
         </StyledHeader>
       </Headroom>
+
       <BurgerMenu
         onThemeChange={onThemeChange}
         menuStatus={isMenuOpen}

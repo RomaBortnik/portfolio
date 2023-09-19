@@ -10,7 +10,9 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/webstudio-new`,
     altText: 'WebStudio home page',
     descr:
-      'A multi-page website of a web development studio. The essence of the project is to create a site that will be cross-browser, with a good assessment of web performance and with adaptive layout support. ',
+      'A multi-page website of a web development studio. The essence of the project is to create a site that will be cross-browser, with a good assessment of web performance and with adaptive layout support.',
+    technologies: 'HTML, SCSS, JS.',
+    developedBy: 'Personal',
     media: [
       {
         id: nanoid(),
@@ -33,7 +35,9 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/mimino-new`,
     altText: 'Mimino home page',
     descr:
-      'A multi-page website for restaurant-hotel complex, which consists of themain page, the restaurant page, the hotel page and an additional hotel room page. Functionality of the website allows cosumers to check the menu, order a table in a restaurant or a hotel room. ',
+      'A multi-page website for restaurant-hotel complex, which consists of themain page, the restaurant page, the hotel page and an additional hotel room page. Functionality of the website allows cosumers to check the menu, order a table in a restaurant or a hotel room.',
+    technologies: 'HTML, SCSS, JS.',
+    developedBy: 'Team',
     media: [
       {
         id: nanoid(),
@@ -55,7 +59,9 @@ export const projects = [
     image: `${CLOUDINARY_URL}projects/desktop/news`,
     mobileImage: `${CLOUDINARY_URL}projects/mobile/news-new`,
     altText: 'News home page',
-    descr: `A multi-page website about news from around the world. It includes a complex functionality, which will allow users not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc.`,
+    descr: `A multi-page website about news from around the world. It includes a complex functionality, which will allow users not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc. Technologies: HTML, SCSS, JS, REST API, AJAX`,
+    technologies: 'HTML, SCSS, JS, REST API, AJAX.',
+    developedBy: 'Team',
     media: [
       {
         id: nanoid(),
@@ -79,6 +85,8 @@ export const projects = [
     altText: 'Task Pro workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
+    technologies: 'HTML, CSS, JS, REST API, React, Redux, Node.js, MongoDB.',
+    developedBy: 'Team',
     media: [
       {
         id: nanoid(),
@@ -102,6 +110,8 @@ export const projects = [
     altText: 'Phonebook workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
+    technologies: 'HTML, CSS, JS, REST API, React, Redux.',
+    developedBy: 'Personal',
     media: [
       {
         id: nanoid(),
@@ -125,6 +135,8 @@ export const projects = [
     altText: 'Tweets workspace',
     descr:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
+    technologies: 'HTML, CSS, JS, REST API, React, Redux.',
+    developedBy: 'Personal',
     media: [
       {
         id: nanoid(),

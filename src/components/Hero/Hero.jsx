@@ -5,7 +5,9 @@ import TextAnimation from 'components/TextAnimation';
 import { heroAnimatedText } from 'utils/heroAnimatedText';
 import animation from '../../animations/heroAnimation2.json';
 import {
+  AccentText,
   HeroContainer,
+  HeroDescr,
   HeroMainText,
   HeroTextContainer,
   SectionHero,
@@ -18,10 +20,19 @@ const Hero = () => {
         <Reveal>
           <HeroContainer>
             <HeroTextContainer>
-              <HeroMainText>Hello, World</HeroMainText>
-              <p>
+              <HeroMainText>Hello, I'm Roma</HeroMainText>
+              <HeroDescr>My technical expertise includes:</HeroDescr>
+              <TextAnimation text={heroAnimatedText} />
+              <HeroDescr>
+                I'm always looking to expand my network and connect with
+                like-minded professionals, so please feel free to reach out and{' '}
+                <AccentText>
+                  <a href="#contacts">say hello!</a>
+                </AccentText>
+              </HeroDescr>
+              {/* <p>
                 &#60;I'm <TextAnimation text={heroAnimatedText} />
-              </p>
+              </p> */}
             </HeroTextContainer>
             <Animation animation={animation} />
           </HeroContainer>

@@ -45,4 +45,5 @@
 
 .container[data-darkmode='dark'] .icon {
   color: #501a96;
+  /* color: rgb(252, 253, 234); */
 }

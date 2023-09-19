@@ -72,18 +72,32 @@ export const ProjectOverlay = styled.div`
   }
 `;
 
+export const ProjectContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+`;
+
 export const ProjectTitle = styled.h2`
   font-size: 18px;
-  margin-bottom: 8px;
+  display: flex;
+  margin: auto 0;
 
   @media screen and (${devices.tablet}) {
     font-size: 28px;
-    margin-bottom: 12px;
   }
 
   @media screen and (${devices.desktop}) {
     font-size: 32px;
   }
+`;
+
+export const ProjectStatus = styled.p`
+  font-size: 14px;
+  padding: 0 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
 `;
 
 export const ProjectDescr = styled.p`
@@ -94,7 +108,7 @@ export const ProjectDescr = styled.p`
   }
 
   @media screen and (${devices.desktop}) {
-    font-size: 20px;
+    font-size: 18px;
   }
 `;
 
@@ -107,5 +121,21 @@ export const LinkList = styled.ul`
   @media screen and (${devices.tablet}) {
     margin-right: 0;
     gap: 16px;
+  }
+`;
+
+export const TechnologiesTitle = styled.p`
+  font-size: 20px;
+  margin-top: 12px;
+`;
+
+export const Technologies = styled.p`
+  font-size: 18px;
+  font-weight: 700;
+  background: ${props => props.theme.colors.accentTextColor};
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  &:not(:last-of-type) {
+    margin-right: 8px;
   }
 `;
