@@ -13,7 +13,7 @@ const Particle = ({ theme }) => {
       id="tsparticles"
       options={particlesConfig(
         theme.colors.particlesColor,
-        theme.colors.background
+        theme.colors.mainBackground
       )}
       init={particlesInit}
     />

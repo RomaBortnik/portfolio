@@ -156,9 +156,6 @@ export const TechnologiesTitle = styled.p`
 export const Technologies = styled.p`
   font-size: 18px;
   font-weight: 700;
-  background: ${props => props.theme.colors.accentTextColor};
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   &:not(:last-of-type) {
     margin-right: 8px;
   }

@@ -59,7 +59,7 @@ export const projects = [
     image: `${CLOUDINARY_URL}projects/desktop/news`,
     mobileImage: `${CLOUDINARY_URL}projects/mobile/news-new`,
     altText: 'News home page',
-    descr: `A multi-page website about news from around the world. It includes a complex functionality, which will allow users not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc. Technologies: HTML, SCSS, JS, REST API, AJAX`,
+    descr: `A multi-page website about news from around the world. Users can do not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc. Technologies: HTML, SCSS, JS, REST API, AJAX`,
     technologies: 'HTML, SCSS, JS, REST API, AJAX.',
     developedBy: 'Team',
     media: [

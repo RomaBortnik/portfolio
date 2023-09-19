@@ -2,14 +2,15 @@ import styled from '@emotion/styled';
 import { baseTransition, devices } from 'styles';
 
 export const StyledHeader = styled.header`
-  width: 100%;
-  height: 60px;
-  background-color: ${props => props.theme.colors.notMainBackground};
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: ${props => props.theme.colors.mainTextColor}; */
-  color: rgb(245, 252, 211);
+
+  width: 100%;
+  height: 60px;
+
+  background-color: ${props => props.theme.colors.notMainBackground};
+  color: ${props => props.theme.colors.notMainTextColor};
   box-shadow: ${props => props.theme.colors.mainShadow};
 
   transition: background-color ${baseTransition}, color ${baseTransition},
@@ -35,13 +36,14 @@ export const Logo = styled.div`
 `;
 
 export const HeaderFlexContainer = styled.div`
+  display: flex;
+  align-items: center;
+
+  gap: 5vw;
+
   @media screen and (${devices.nottabletanddesktop}) {
     display: none;
   }
-
-  display: flex;
-  align-items: center;
-  gap: 5vw;
 `;
 
 export const MenuBtn = styled.button`

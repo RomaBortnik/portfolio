@@ -22,15 +22,6 @@ export const HeroTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 28px;
-
-  @media screen and (${devices.tablet}) {
-    font-size: 28px;
-  }
-
-  @media screen and (${devices.desktop}) {
-    font-size: 44px;
-  }
 `;
 
 export const HeroMainText = styled.p`
@@ -54,7 +45,7 @@ export const HeroMainText = styled.p`
 `;
 
 export const HeroDescr = styled.p`
-  font-size: 26px;
+  font-size: 24px;
 
   @media screen and (${devices.onlymobile}) {
     font-size: 20px;
