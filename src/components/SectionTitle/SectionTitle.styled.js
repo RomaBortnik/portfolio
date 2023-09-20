@@ -10,7 +10,7 @@ export const StyledTitle = styled.h2`
   -webkit-text-fill-color: transparent;
 
   @media screen and (${devices.onlymobile}) {
-    font-size: 56px;
+    font-size: 52px;
   }
 
   @media screen and (${devices.tablet}) {
