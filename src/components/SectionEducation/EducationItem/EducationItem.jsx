@@ -1,3 +1,4 @@
+import Reveal from 'components/Reveal';
 import {
   Item,
   ItemContainer,
@@ -13,20 +14,23 @@ const EducationItem = ({ education }) => {
   const { id, name, degree, period, logo, altText } = education;
   return (
     <Item>
-      <ItemContainer>
-        {id === 'goit' ? (
-          <Logo src={logo} alt={altText} />
-        ) : (
-          <Logo className="nulp-logo" src={logo} alt={altText} />
-        )}
+      <Reveal>
+        <ItemContainer>
+          {id === 'goit' ? (
+            <Logo src={logo} alt={altText} />
+          ) : (
+            <Logo className="nulp-logo" src={logo} alt={altText} />
+          )}
 
-        <Info>
-          <Title>{name}</Title>
-          <Degree>{degree}</Degree>
-          <Descr>{period}</Descr>
-        </Info>
-      </ItemContainer>
-      <DecorativeLine className="line" />
+          <Info>
+            <Title>{name}</Title>
+            <Degree>{degree}</Degree>
+            <Descr>{period}</Descr>
+          </Info>
+        </ItemContainer>
+
+        <DecorativeLine className="line" />
+      </Reveal>
     </Item>
   );
 };

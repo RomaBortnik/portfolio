@@ -14,9 +14,7 @@ const SectionEducation = () => {
         </Reveal>
         <ul>
           {education.map(el => (
-            <Reveal key={el.id} marginBottom={'60px'}>
-              <EducationItem education={el}></EducationItem>
-            </Reveal>
+            <EducationItem key={el.id} education={el}></EducationItem>
           ))}
         </ul>
       </SectionContainer>

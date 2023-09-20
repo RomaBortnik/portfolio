@@ -12,8 +12,7 @@ export const education = [
   {
     id: 'nulp',
     name: 'Lviv Polytechnic National University',
-    degree:
-      'Master of Electrical energetics, electrical engineering and electromechanics',
+    degree: 'Master of Electrical engineering',
     period: 'September 2015 - December 2020',
     logo: `${CLOUDINARY_URL}logos/azegmt1ttqlit8m00jid`,
     altText: 'Lviv Polytechnic emblem',
