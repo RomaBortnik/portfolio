@@ -23,8 +23,26 @@ export const NavList = styled.ul`
 `;
 
 export const NavListItem = styled.li`
+  position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background: ${props => props.theme.colors.accentTextColor};
+    transform: translateX(-100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover::after {
+    transform: translateX(0);
+  }
 
   @media screen and (${devices.nottabletanddesktop}) {
     font-size: 36px;
