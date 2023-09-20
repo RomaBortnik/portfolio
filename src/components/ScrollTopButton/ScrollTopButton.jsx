@@ -25,6 +25,7 @@ const ScrollTopButton = () => {
     <TopButton
       type="button"
       name="scroll-top"
+      alt="scroll"
       isVisible={isVisible}
       onClick={handleClick}
     >

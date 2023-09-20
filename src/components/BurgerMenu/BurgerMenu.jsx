@@ -23,7 +23,12 @@ const BurgerMenu = ({ menuStatus, onClose, onThemeChange }) => {
       <MenuContainer>
         <FlexContainer>
           <ThemeSwitcher onThemeChange={onThemeChange} />
-          <CloseBtn type="button" name="close-menu" onClick={() => onClose()}>
+          <CloseBtn
+            type="button"
+            name="close-menu"
+            alt="close"
+            onClick={() => onClose()}
+          >
             <SvgIcon w={40} h={40} use={`${sprite}#icon-close-big`}></SvgIcon>
           </CloseBtn>
         </FlexContainer>
