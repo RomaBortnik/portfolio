@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { baseTransition, devices } from 'styles';
 
-export const TopButton = styled.div`
+export const TopButton = styled.button`
   position: fixed;
   bottom: 48px;
   right: 12px;

@@ -33,6 +33,7 @@ const SectionProjects = () => {
       <SectionContainer>
         <Reveal>
           <SectionTitle>Projects</SectionTitle>
+
           {parseInt(screenWidth) >= parseInt(sizes.desktop) ? (
             <ProjectList>
               {projects.map(project => (

@@ -11,6 +11,11 @@ export const AnimatedText = styled(TypeAnimation)`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  &::after {
+    content: '_';
+    animation: cursor 1.1s infinite step-start;
+  }
+
   @media screen and (${devices.onlymobile}) {
     font-size: 20px;
   }

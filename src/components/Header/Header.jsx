@@ -55,7 +55,7 @@ const Header = ({ onThemeChange }) => {
                 <ThemeSwitcher onThemeChange={onThemeChange} />
               </HeaderFlexContainer>
 
-              <MenuBtn type="button" onClick={toggleMenu}>
+              <MenuBtn name="open-menu" type="button" onClick={toggleMenu}>
                 <SvgIcon w={40} h={40} use={`${sprite}#icon-menu`}></SvgIcon>
               </MenuBtn>
             </HeaderContainer>

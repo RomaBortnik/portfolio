@@ -22,7 +22,12 @@ const ScrollTopButton = () => {
     });
   };
   return (
-    <TopButton isVisible={isVisible} onClick={handleClick} style={{}}>
+    <TopButton
+      type="button"
+      name="scroll-top"
+      isVisible={isVisible}
+      onClick={handleClick}
+    >
       <SvgIcon w={32} h={32} use={`${sprite}#icon-hand-up`} />
     </TopButton>
   );

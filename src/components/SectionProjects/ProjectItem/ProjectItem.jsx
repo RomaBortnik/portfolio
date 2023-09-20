@@ -29,11 +29,6 @@ const ProjectItem = ({ project }) => {
     <Project>
       {/* <Reveal> */}
       <ProjectThumb className="thumb">
-        {/* <img
-          style={{ height: '100%', width: '100%' }}
-          src={mobileImage}
-          alt={altText}
-        /> */}
         <picture>
           <source srcSet={image} media={`(${devices.desktop})`} />
           <source
