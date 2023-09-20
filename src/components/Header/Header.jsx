@@ -57,7 +57,7 @@ const Header = ({ onThemeChange }) => {
 
               <MenuBtn
                 alt="open"
-                name="open-menu"
+                aria-label="open-menu"
                 type="button"
                 onClick={toggleMenu}
               >

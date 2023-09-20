@@ -26,7 +26,7 @@ const BurgerMenu = ({ menuStatus, onClose, onThemeChange }) => {
           <CloseBtn
             type="button"
             name="close-menu"
-            alt="close"
+            aria-label="close-menu"
             onClick={() => onClose()}
           >
             <SvgIcon w={40} h={40} use={`${sprite}#icon-close-big`}></SvgIcon>

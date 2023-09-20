@@ -25,7 +25,7 @@ const ScrollTopButton = () => {
     <TopButton
       type="button"
       name="scroll-top"
-      alt="scroll"
+      aria-label="scroll-top"
       isVisible={isVisible}
       onClick={handleClick}
     >
