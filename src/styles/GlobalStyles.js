@@ -15,6 +15,7 @@ export const GlobalStyles = css`
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
     src: url('${woffRobotoRegular}') format('woff'),
       url('${woff2RobotoRegular}') format('woff2');
   }
@@ -23,6 +24,7 @@ export const GlobalStyles = css`
     font-family: 'Roboto';
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
     src: url('${woffRobotoMedium}') format('woff'),
       url('${woff2RobotoMedium}') format('woff2');
   }
@@ -31,6 +33,7 @@ export const GlobalStyles = css`
     font-family: 'Roboto';
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
     src: url('${woffRobotoBold}') format('woff'),
       url('${woff2RobotoBold}') format('woff2');
   }
@@ -39,6 +42,7 @@ export const GlobalStyles = css`
     font-family: 'Architects Daughter';
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
     src: url('${woffArchitectsDaughterRegular}') format('woff'),
       url('${woff2ArchitectsDaughterRegular}') format('woff2');
   }
