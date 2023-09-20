@@ -1,8 +1,8 @@
 import Header from './Header';
-import SectionEducation from './SectionEducation';
+// import SectionEducation from './SectionEducation';
 import SectionSkills from './SectionSkills';
 import Hero from './Hero';
-import SectionProjects from './SectionProjects';
+// import SectionProjects from './SectionProjects';
 import ScrollTopButton from './ScrollTopButton';
 import { ThemeProvider } from '@emotion/react';
 import { useState } from 'react';
@@ -31,9 +31,9 @@ export const App = () => {
         <main>
           <Particle theme={currentTheme}></Particle>
           <Hero />
-          <SectionEducation />
+          {/* <SectionEducation /> */}
           <SectionSkills />
-          <SectionProjects />
+          {/* <SectionProjects /> */}
           <ScrollTopButton />
         </main>
         <Footer />
