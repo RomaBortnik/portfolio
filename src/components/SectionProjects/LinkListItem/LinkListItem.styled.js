@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { devices, baseTransition } from 'styles';
 
-export const LinkItem = styled.li`
+export const LinkItem = styled.div`
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 4px 10px;

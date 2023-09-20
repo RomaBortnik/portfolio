@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 import { baseTransition, devices } from 'styles';
 
-export const Project = styled.li`
+export const Project = styled.div`
   position: relative;
-  height: 412px;
-  cursor: pointer;
   border-radius: 12px;
+  cursor: pointer;
+
   overflow: hidden;
   box-shadow: ${props => props.theme.colors.mainShadow};
   transition: transform ${baseTransition};
@@ -22,16 +22,23 @@ export const Project = styled.li`
     filter: blur(4px);
   }
 
-  @media screen and (${devices.onlymobile}) {
-    height: 360px;
-  }
-
   @media screen and (${devices.nottabletanddesktop}) {
     &:not(:last-of-type) {
       margin-bottom: 24px;
     }
   }
+`;
 
+export const ProjectThumb = styled.div`
+  /* width: 100%;
+  height: 100%; */
+  transition: filter ${baseTransition};
+
+  height: 412px;
+
+  @media screen and (${devices.onlymobile}) {
+    height: 360px;
+  }
   @media screen and (${devices.tablet}) {
     border-radius: 24px;
     height: 264px;
@@ -40,12 +47,6 @@ export const Project = styled.li`
   @media screen and (${devices.desktop}) {
     height: 320px;
   }
-`;
-
-export const ProjectThumb = styled.div`
-  width: 100%;
-  height: 100%;
-  transition: filter ${baseTransition};
 `;
 
 export const ProjectOverlay = styled.div`

@@ -17,9 +17,15 @@ const EducationItem = ({ education }) => {
       <Reveal>
         <ItemContainer>
           {id === 'goit' ? (
-            <Logo src={logo} alt={altText} />
+            <Logo src={logo} alt={altText} width="" height="" />
           ) : (
-            <Logo className="nulp-logo" src={logo} alt={altText} />
+            <Logo
+              className="nulp-logo"
+              src={logo}
+              alt={altText}
+              width=""
+              height=""
+            />
           )}
 
           <Info>
