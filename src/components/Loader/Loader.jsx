@@ -10,6 +10,7 @@ const Loader = () => {
       ariaLabel="ball-triangle-loading"
       wrapperClass={{}}
       wrapperStyle={{
+        fontFamily: 'Architects Daughter',
         position: 'fixed',
         top: '0',
         left: '0',
