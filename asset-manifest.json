@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4714069f.css",
-    "main.js": "/portfolio/static/js/main.6f7f2d7c.js",
+    "main.js": "/portfolio/static/js/main.b9ef8551.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/portfolio/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/portfolio/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
     "static/media/uicons-solid-rounded-3CHVJWAY.eot": "/portfolio/static/media/uicons-solid-rounded-3CHVJWAY.db4b69f1f366dd7c3690.eot",
@@ -28,10 +28,10 @@
     "static/media/AnyConv.com__ArchitectsDaughter-Regular.woff": "/portfolio/static/media/AnyConv.com__ArchitectsDaughter-Regular.406639e51e84df7854f0.woff",
     "index.html": "/portfolio/index.html",
     "main.4714069f.css.map": "/portfolio/static/css/main.4714069f.css.map",
-    "main.6f7f2d7c.js.map": "/portfolio/static/js/main.6f7f2d7c.js.map"
+    "main.b9ef8551.js.map": "/portfolio/static/js/main.b9ef8551.js.map"
   },
   "entrypoints": [
     "static/css/main.4714069f.css",
-    "static/js/main.6f7f2d7c.js"
+    "static/js/main.b9ef8551.js"
   ]
 }
