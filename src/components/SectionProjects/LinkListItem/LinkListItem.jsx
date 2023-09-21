@@ -6,7 +6,12 @@ const LinkListItem = ({ project }) => {
 
   return (
     <LinkItem>
-      <LinkRef href={link} target="_blank" rel="noopener noreferrer">
+      <LinkRef
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={name}
+      >
         <SvgIcon w={20} h={20} use={icon} />
         <LinkText>{name}</LinkText>
       </LinkRef>

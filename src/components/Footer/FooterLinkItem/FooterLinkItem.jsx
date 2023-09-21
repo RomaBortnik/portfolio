@@ -9,6 +9,7 @@ const FooterLinkItem = ({ linkItem }) => {
         href={link}
         target={name === 'Gmail' ? '_self' : '_blank'}
         rel="noopener noreferrer"
+        aria-label={name}
       >
         <SvgIcon w={24} h={24} use={icon} />
       </FooterLinkListRef>
