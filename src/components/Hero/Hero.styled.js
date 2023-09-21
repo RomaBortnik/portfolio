@@ -10,8 +10,6 @@ export const SectionHero = styled.section`
 `;
 
 export const HeroContainer = styled.ul`
-  font-family: 'Architects Daughter';
-
   @media screen and (${devices.tablet}) {
     display: grid;
     grid-template-columns: 50% 50%;

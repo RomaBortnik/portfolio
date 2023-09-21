@@ -1,43 +1,9 @@
 import { css } from '@emotion/react';
 
-import woffRobotoRegular from '../fonts/AnyConv.com__Roboto-Regular.woff';
-import woff2RobotoRegular from '../fonts/AnyConv.com__Roboto-Regular.woff2';
-import woffRobotoMedium from '../fonts/AnyConv.com__Roboto-Medium.woff';
-import woff2RobotoMedium from '../fonts/AnyConv.com__Roboto-Medium.woff2';
-import woffRobotoBold from '../fonts/AnyConv.com__Roboto-Bold.woff';
-import woff2RobotoBold from '../fonts/AnyConv.com__Roboto-Bold.woff2';
-
 import woffArchitectsDaughterRegular from '../fonts/AnyConv.com__ArchitectsDaughter-Regular.woff';
 import woff2ArchitectsDaughterRegular from '../fonts/AnyConv.com__ArchitectsDaughter-Regular.woff2';
 
 export const GlobalStyles = css`
-  @font-face {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    src: url('${woffRobotoRegular}') format('woff'),
-      url('${woff2RobotoRegular}') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-    src: url('${woffRobotoMedium}') format('woff'),
-      url('${woff2RobotoMedium}') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-    src: url('${woffRobotoBold}') format('woff'),
-      url('${woff2RobotoBold}') format('woff2');
-  }
-
   @font-face {
     font-family: 'Architects Daughter';
     font-weight: 400;
@@ -60,7 +26,7 @@ export const GlobalStyles = css`
   }
 
   body {
-    font-family: 'Architects Daughter', 'Roboto', serif, sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-style: normal;
     overflow-x: hidden;
   }

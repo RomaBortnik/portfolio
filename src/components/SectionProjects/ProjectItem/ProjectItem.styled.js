@@ -63,7 +63,6 @@ export const ProjectOverlay = styled.div`
   border-radius: 12px;
   transform: scale(0);
   transition: transform ${baseTransition};
-  font-family: 'Architects Daughter';
   display: flex;
   flex-direction: column;
 
