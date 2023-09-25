@@ -59,7 +59,7 @@ export const projects = [
     image: `${CLOUDINARY_URL}projects/desktop/news`,
     mobileImage: `${CLOUDINARY_URL}projects/mobile/news-new`,
     altText: 'News home page',
-    descr: `A multi-page website about news from around the world. Users can do not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc. Technologies: HTML, SCSS, JS, REST API, AJAX`,
+    descr: `A multi-page website about news from around the world. Users can do not only search and read news, but also filter it by date, add and remove news into "favorites" tab, save their viewing history, check a weather forecast based on user's geolocation etc. `,
     technologies: 'HTML, SCSS, JS, REST API, AJAX.',
     developedBy: 'Team',
     media: [
@@ -84,8 +84,9 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/taskpro-new`,
     altText: 'Task Pro workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
-    technologies: 'HTML, CSS, JS, REST API, React, Redux, Node.js, MongoDB.',
+      'Web application for organise work on your tasks. Users can create boards with cards of  tasks, choosing the priority and deadline for each task, edit their data, boards, cards, etc. It is possible to drag and drop tasks between columns. Users also can changed current theme and filterd cards by priority for each board.',
+    technologies:
+      'HTML, styled-components, JS, REST API, React, Redux, Node.js, MongoDB.',
     developedBy: 'Team',
     media: [
       {
@@ -109,8 +110,8 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/phonebook-new`,
     altText: 'Phonebook workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
-    technologies: 'HTML, CSS, JS, REST API, React, Redux.',
+      'A multi-page application with asynchronous operations, user authorization and page routing. Phonebook includes Home page and Contacts page, provides an opportunity to create and delete contacts. Users can also search their contacts by name.',
+    technologies: 'HTML, styled-components, JS, REST API, React, Redux.',
     developedBy: 'Personal',
     media: [
       {
@@ -134,7 +135,7 @@ export const projects = [
     mobileImage: `${CLOUDINARY_URL}projects/mobile/tweets-new`,
     altText: 'Tweets workspace',
     descr:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi architecto illo quam. Cumque optio accusantium, vel dolore et distinctio ratione laudantium magnam labore dolor ex tempora molestias animi ut nisi suscipit delectus sit numquam tenetur rem consequuntur?',
+      'A multi-page application with asynchronous operations, that includes Home page and Tweets page, provides an opportunity to follow or unfollow the user. Users can also filter them by status. Website also use a pagination.',
     technologies: 'HTML, CSS, JS, REST API, React, Redux.',
     developedBy: 'Personal',
     media: [
