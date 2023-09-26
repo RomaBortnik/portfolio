@@ -7,7 +7,7 @@ export const NavList = styled.ul`
     height: 60vh;
   }
 
-  @media screen and (max-height: 414px) {
+  @media screen and (max-height: 414px) and (${devices.nottabletanddesktop}) {
     height: 70vh;
   }
 

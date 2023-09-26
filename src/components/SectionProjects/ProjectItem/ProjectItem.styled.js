@@ -83,10 +83,10 @@ export const ProjectContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
   @media screen and (${devices.onlymobile}) {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
 `;
 
@@ -96,7 +96,7 @@ export const ProjectTitle = styled.h2`
   margin: auto 0;
 
   @media screen and (${devices.tablet}) {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   @media screen and (${devices.desktop}) {
@@ -119,7 +119,7 @@ export const ProjectDescr = styled.p`
   }
 
   @media screen and (${devices.tablet}) {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   @media screen and (${devices.desktop}) {
@@ -135,7 +135,7 @@ export const LinkList = styled.ul`
 
   @media screen and (${devices.onlymobile}) {
     margin-right: 0;
-    gap: 8px;
+    gap: 4px;
   }
 
   @media screen and (${devices.tablet}) {
@@ -147,16 +147,20 @@ export const LinkList = styled.ul`
 export const TechnologiesTitle = styled.p`
   font-size: 18px;
   margin-top: 8px;
+
+  @media screen and (${devices.onlymobile}) {
+    margin-top: 2px;
+  }
 `;
 
 export const Technologies = styled.p`
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   &:not(:last-of-type) {
     margin-right: 8px;
   }
 
   @media screen and (${devices.onlymobile}) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
