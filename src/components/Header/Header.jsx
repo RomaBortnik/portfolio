@@ -1,12 +1,13 @@
-import Headroom from 'react-headroom';
-import SectionContainer from 'components/SectionContainer';
-import SvgIcon from 'components/SvgIcon';
-import sprite from '../../images/icons.svg';
 import { useEffect, useState } from 'react';
-import { sizes } from 'styles';
+import Headroom from 'react-headroom';
+
+import { SectionContainer } from 'components/App.styled';
 import BurgerMenu from 'components/BurgerMenu';
 import Navigation from 'components/Navigation';
 import ThemeSwitcher from 'components/ThemeSwitcher';
+import SvgIcon from 'components/SvgIcon';
+import sprite from '../../images/icons.svg';
+import { sizes } from 'styles';
 import {
   HeaderContainer,
   HeaderFlexContainer,

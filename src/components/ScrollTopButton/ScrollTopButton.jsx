@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { TopButton } from './ScrollTopButton.styled';
 import SvgIcon from 'components/SvgIcon';
 import sprite from '../../images/icons.svg';

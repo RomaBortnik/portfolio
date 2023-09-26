@@ -1,6 +1,6 @@
 import Animation from 'components/Animation';
 import Reveal from 'components/Reveal';
-import SectionContainer from 'components/SectionContainer';
+import { SectionContainer } from 'components/App.styled';
 import TextAnimation from 'components/TextAnimation';
 import { heroAnimatedText } from 'utils/heroAnimatedText';
 import animation from '../../animations/heroAnimation2.json';

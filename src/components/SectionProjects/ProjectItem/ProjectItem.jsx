@@ -1,4 +1,3 @@
-// import Reveal from 'components/Reveal';
 import LinkListItem from '../LinkListItem';
 import { devices } from 'styles';
 import {
@@ -18,7 +17,7 @@ const ProjectItem = ({ project }) => {
   const {
     name,
     mobileImage,
-    image,
+    desktopImage,
     altText,
     technologies,
     developedBy,
@@ -27,17 +26,16 @@ const ProjectItem = ({ project }) => {
   } = project;
   return (
     <Project>
-      {/* <Reveal> */}
       <ProjectThumb className="thumb">
         <picture>
-          <source srcSet={image} media={`(${devices.desktop})`} />
+          <source srcSet={desktopImage} media={`(${devices.desktop})`} />
           <source
             srcSet={mobileImage}
             media={`(${devices.nottabletanddesktop})`}
           />
           <img
             style={{ width: '100%', height: '100%' }}
-            src={image}
+            src={desktopImage}
             alt={altText}
             min-width="320"
             loading="lazy"
@@ -61,7 +59,6 @@ const ProjectItem = ({ project }) => {
           ))}
         </LinkList>
       </ProjectOverlay>
-      {/* </Reveal> */}
     </Project>
   );
 };

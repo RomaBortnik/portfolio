@@ -1,10 +1,8 @@
-import Reveal from 'components/Reveal';
-import Section from 'components/Section/Section';
-import SectionContainer from 'components/SectionContainer';
-import { StyledTitle } from 'components/SectionTitle/SectionTitle.styled';
 import { useState } from 'react';
-import { skills } from 'utils/skills';
+import Reveal from 'components/Reveal';
+import { Section, SectionContainer, SectionTitle } from 'components/App.styled';
 import SkillListItem from '../SectionSkills/SkillListItem';
+import { skills } from 'utils/skills';
 import { SkillList, TextContainer } from './SectionSkills.styled';
 
 const SectionExperience = () => {
@@ -16,7 +14,7 @@ const SectionExperience = () => {
     <Section id={'skills'}>
       <SectionContainer>
         <Reveal>
-          <StyledTitle>Skills</StyledTitle>
+          <SectionTitle>Skills</SectionTitle>
           <SkillList>
             {skills.map(skill => (
               <SkillListItem

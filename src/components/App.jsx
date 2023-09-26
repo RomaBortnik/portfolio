@@ -7,10 +7,10 @@ import ScrollTopButton from './ScrollTopButton';
 import { ThemeProvider } from '@emotion/react';
 import { useState } from 'react';
 import { theme } from 'styles';
-import { StyledWrapper } from './Wrapper/Wrapper.styled';
 import { STORAGE_KEY } from './ThemeSwitcher/ThemeSwitcher';
 import Particle from './Particle';
 import Footer from './Footer';
+import { Wrapper } from './App.styled';
 
 export const App = () => {
   const [currentTheme, setCurrentTheme] = useState(() => {
@@ -26,7 +26,7 @@ export const App = () => {
 
   return (
     <ThemeProvider theme={currentTheme}>
-      <StyledWrapper>
+      <Wrapper>
         <Header onThemeChange={handleTheme} />
         <main>
           <Particle theme={currentTheme}></Particle>
@@ -37,7 +37,7 @@ export const App = () => {
           <ScrollTopButton />
         </main>
         <Footer />
-      </StyledWrapper>
+      </Wrapper>
     </ThemeProvider>
   );
 };

@@ -1,7 +1,5 @@
 import Reveal from 'components/Reveal';
-import Section from 'components/Section/Section';
-import SectionContainer from 'components/SectionContainer';
-import SectionTitle from 'components/SectionTitle';
+import { Section, SectionContainer, SectionTitle } from 'components/App.styled';
 import { education } from 'utils/education';
 import EducationItem from './EducationItem';
 

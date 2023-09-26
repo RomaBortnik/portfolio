@@ -1,4 +1,4 @@
-import SectionContainer from 'components/SectionContainer';
+import { SectionContainer } from 'components/App.styled';
 import SvgIcon from 'components/SvgIcon';
 import FooterLinkItem from './FooterLinkItem';
 import sprite from '../../images/icons.svg';
