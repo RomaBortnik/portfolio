@@ -8,7 +8,7 @@ export const Project = styled.div`
 
   overflow: hidden;
   box-shadow: ${props => props.theme.colors.mainShadow};
-  transition: transform ${baseTransition} filter ${baseTransition};
+  transition: transform ${baseTransition}, filter ${baseTransition};
 
   &:hover {
     transform: scale(1.05);
@@ -110,10 +110,10 @@ export const ProjectStatus = styled.p`
 `;
 
 export const ProjectDescr = styled.p`
-  font-size: 13px !important;
+  /* font-size: 13px !important; */
 
   @media screen and (${devices.desktop}) {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 `;
 
