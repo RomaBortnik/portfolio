@@ -2,22 +2,7 @@ import styled from '@emotion/styled';
 import { devices } from 'styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-export const StyledSlide = styled(SwiperSlide)`
-  /* margin-right: 32px !important; */
-  /* background: transparent !important; */
-  /* width: 65% !important; */
-  /* height: auto !important; */
-
-  @media screen and (${devices.tablet}) {
-    /* margin-right: 40px !important; */
-    /* width: 75% !important; */
-  }
-
-  // @media screen and (${devices.desktop}) {
-  //   margin-right: 80px !important;
-  //   width: 50% !important;
-  // }
-`;
+export const StyledSlide = styled(SwiperSlide)``;
 
 export const StyledSwiper = styled(Swiper)`
   width: 100% !important;

@@ -8,7 +8,7 @@ export const Project = styled.div`
 
   overflow: hidden;
   box-shadow: ${props => props.theme.colors.mainShadow};
-  transition: transform ${baseTransition};
+  transition: transform ${baseTransition} filter ${baseTransition};
 
   &:hover {
     transform: scale(1.05);
@@ -22,26 +22,25 @@ export const Project = styled.div`
     filter: blur(4px);
   }
 
-  @media screen and (${devices.nottabletanddesktop}) {
+  /* @media screen and (${devices.nottabletanddesktop}) {
     &:not(:last-of-type) {
       margin-bottom: 24px;
     }
-  }
+  } */
 `;
 
 export const ProjectThumb = styled.div`
   /* width: 100%;
   height: 100%; */
-  transition: filter ${baseTransition};
 
-  height: 412px;
+  height: 466px;
 
   @media screen and (${devices.onlymobile}) {
-    height: 360px;
+    height: 400px;
   }
   @media screen and (${devices.tablet}) {
     border-radius: 24px;
-    height: 264px;
+    height: 266px;
   }
 
   @media screen and (${devices.desktop}) {

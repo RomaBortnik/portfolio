@@ -11,8 +11,8 @@ const Slider = () => {
     <StyledSwiper
       modules={[Autoplay]}
       autoplay={{ delay: 6000, pauseOnMouseEnter: true }}
-      slidesPerView={1.5}
-      spaceBetween={36}
+      slidesPerView={1.3}
+      spaceBetween={32}
       centeredSlides={true}
       loop={true}
       speed={1500}
