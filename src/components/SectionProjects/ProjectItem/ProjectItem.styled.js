@@ -111,10 +111,16 @@ export const ProjectStatus = styled.p`
 
 export const ProjectDescr = styled.p`
   /* font-size: 13px !important; */
+  color: yellow;
 
-  /* @media screen and (${devices.desktop}) {
-    font-size: 18px !important;
-  } */
+  @media screen and (${devices.tablet}) {
+    color: blue;
+  }
+
+  @media screen and (${devices.desktop}) {
+    /* font-size: 18px !important; */
+    color: red;
+  }
 `;
 
 export const LinkList = styled.ul`
