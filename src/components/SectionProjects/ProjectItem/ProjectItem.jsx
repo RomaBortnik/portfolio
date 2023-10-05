@@ -49,7 +49,10 @@ const ProjectItem = ({ project }) => {
           <ProjectStatus>{developedBy}</ProjectStatus>
         </ProjectContainer>
 
-        <ProjectDescr style={{ fontSize: 13 }}>{descr}</ProjectDescr>
+        <ProjectDescr style={{ maxheight: '100%', overflow: 'auto' }}>
+          {descr}
+        </ProjectDescr>
+
         <TechnologiesTitle>Technologies:</TechnologiesTitle>
         <Technologies>{technologies}</Technologies>
 
