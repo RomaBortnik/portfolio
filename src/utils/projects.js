@@ -104,13 +104,19 @@ export const projects = [
         id: nanoid(),
         link: 'https://github.com/TikhonenkoVV/bite-todo-react',
         icon: `${sprite}#icon-github`,
-        name: 'GitHub',
+        name: 'Front',
+      },
+      {
+        id: nanoid(),
+        link: 'https://github.com/TikhonenkoVV/bite-todo-rest-api',
+        icon: `${sprite}#icon-github`,
+        name: 'Back',
       },
       {
         id: nanoid(),
         link: 'https://tikhonenkovv.github.io/bite-todo-react/',
         icon: `${sprite}#icon-feed`,
-        name: 'Live page',
+        name: 'Live',
       },
     ],
   },
@@ -122,20 +128,27 @@ export const projects = [
     altText: 'Phonebook workspace',
     descr:
       'A multi-page application with asynchronous operations, user authorization and page routing. Phonebook includes Home page and Contacts page, provides an opportunity to create and delete contacts. Users can also search their contacts by name.',
-    technologies: 'HTML, styled-components, JS, REST API, React, Redux.',
+    technologies:
+      'HTML, styled-components, JS, REST API, React, Redux, Node.js, MongoDB.',
     developedBy: 'Personal',
     media: [
       {
         id: nanoid(),
         link: 'https://github.com/RomaBortnik/goit-react-hw-08-phonebook',
         icon: `${sprite}#icon-github`,
-        name: 'GitHub',
+        name: 'Front',
+      },
+      {
+        id: nanoid(),
+        link: 'https://github.com/RomaBortnik/phonebook-backend',
+        icon: `${sprite}#icon-github`,
+        name: 'Back',
       },
       {
         id: nanoid(),
         link: 'https://romabortnik.github.io/goit-react-hw-08-phonebook/',
         icon: `${sprite}#icon-feed`,
-        name: 'Live page',
+        name: 'Live',
       },
     ],
   },

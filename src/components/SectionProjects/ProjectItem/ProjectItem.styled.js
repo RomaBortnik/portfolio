@@ -111,7 +111,7 @@ export const ProjectStatus = styled.p`
 `;
 
 export const ProjectDescr = styled.p`
-  font-size: 13px;
+  font-size: 13px !important;
 
   @media screen and (${devices.desktop}) {
     font-size: 18px;
@@ -121,13 +121,16 @@ export const ProjectDescr = styled.p`
 export const LinkList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin: auto auto 0;
+  margin-top: auto;
 
-  @media screen and (${devices.onlymobile}) {
+  @media screen and (${devices.nottabletanddesktop}) {
+    justify-content: space-between;
+  }
+
+  /* @media screen and (${devices.onlymobile}) {
     margin-right: 0;
     gap: 4px;
-  }
+  } */
 
   @media screen and (${devices.tablet}) {
     margin-right: 0;
@@ -136,7 +139,7 @@ export const LinkList = styled.ul`
 `;
 
 export const TechnologiesTitle = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 8px;
 
   @media screen and (${devices.onlymobile}) {
@@ -145,6 +148,6 @@ export const TechnologiesTitle = styled.p`
 `;
 
 export const Technologies = styled.p`
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
 `;
