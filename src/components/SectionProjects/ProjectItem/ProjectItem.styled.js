@@ -121,8 +121,12 @@ export const LinkList = styled.ul`
   align-items: center;
   margin-top: auto;
 
-  @media screen and (${devices.nottabletanddesktop}) {
+  @media screen and (${devices.onlymobile}) {
     justify-content: space-between;
+  }
+
+  @media screen and (${devices.mobile}) and (${devices.nottabletanddesktop}) {
+    justify-content: space-around;
   }
 
   /* @media screen and (${devices.onlymobile}) {
@@ -149,6 +153,7 @@ export const TechnologiesTitle = styled.p`
 export const Technologies = styled.p`
   font-size: 13px;
   font-weight: 700;
+  margin-bottom: 4px;
 
   @media screen and (${devices.desktop}) {
     font-size: 16px;

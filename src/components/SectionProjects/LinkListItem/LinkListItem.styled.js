@@ -7,6 +7,10 @@ export const LinkItem = styled.li`
   padding: 2px 4px;
   transition: background-color ${baseTransition}, box-shadow ${baseTransition};
 
+  @media screen and (${devices.mobile}) {
+    padding: 2px 8px;
+  }
+
   @media screen and (${devices.desktop}) {
     padding: 4px 8px;
   }
@@ -32,7 +36,7 @@ export const LinkRef = styled.a`
 export const LinkText = styled.p`
   font-size: 12px;
 
-  @media screen and (${devices.tablet}) {
+  @media screen and (${devices.mobile}) {
     font-size: 14px;
   }
 
