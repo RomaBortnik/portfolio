@@ -112,9 +112,9 @@ export const ProjectStatus = styled.p`
 export const ProjectDescr = styled.p`
   /* font-size: 13px !important; */
 
-  @media screen and (${devices.desktop}) {
+  /* @media screen and (${devices.desktop}) {
     font-size: 18px !important;
-  }
+  } */
 `;
 
 export const LinkList = styled.ul`
