@@ -114,7 +114,7 @@ export const ProjectDescr = styled.p`
   font-size: 13px !important;
 
   @media screen and (${devices.desktop}) {
-    font-size: 18px;
+    font-size: 16px !important;
   }
 `;
 
@@ -141,6 +141,7 @@ export const LinkList = styled.ul`
 export const TechnologiesTitle = styled.p`
   font-size: 16px;
   margin-top: 8px;
+  font-weight: 500;
 
   @media screen and (${devices.onlymobile}) {
     margin-top: 2px;
@@ -150,4 +151,8 @@ export const TechnologiesTitle = styled.p`
 export const Technologies = styled.p`
   font-size: 13px;
   font-weight: 700;
+
+  @media screen and (${devices.desktop}) {
+    font-size: 16px;
+  }
 `;

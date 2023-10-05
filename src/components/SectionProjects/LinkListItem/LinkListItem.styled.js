@@ -7,6 +7,10 @@ export const LinkItem = styled.li`
   padding: 2px 4px;
   transition: background-color ${baseTransition}, box-shadow ${baseTransition};
 
+  @media screen and (${devices.desktop}) {
+    padding: 4px 8px;
+  }
+
   &:hover {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0px 2px 4px -1px rgba(255, 255, 255, 0.2),
@@ -30,5 +34,9 @@ export const LinkText = styled.p`
 
   @media screen and (${devices.tablet}) {
     font-size: 14px;
+  }
+
+  @media screen and (${devices.desktop}) {
+    font-size: 16px;
   }
 `;
