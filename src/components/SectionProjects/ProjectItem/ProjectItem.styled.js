@@ -59,7 +59,6 @@ export const ProjectOverlay = styled.div`
   color: #fff;
   text-align: justify;
   padding: 12px;
-  font-size: 20px;
   border-radius: 12px;
   transform: scale(0);
   transition: transform ${baseTransition};
@@ -114,14 +113,6 @@ export const ProjectStatus = styled.p`
 export const ProjectDescr = styled.p`
   font-size: 13px;
 
-  @media screen and (${devices.onlymobile}) {
-    font-size: 12px;
-  }
-
-  @media screen and (${devices.tablet}) {
-    font-size: 13px;
-  }
-
   @media screen and (${devices.desktop}) {
     font-size: 18px;
   }
@@ -156,11 +147,4 @@ export const TechnologiesTitle = styled.p`
 export const Technologies = styled.p`
   font-size: 14px;
   font-weight: 700;
-  &:not(:last-of-type) {
-    margin-right: 8px;
-  }
-
-  @media screen and (${devices.onlymobile}) {
-    font-size: 12px;
-  }
 `;
