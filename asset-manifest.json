@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4714069f.css",
-    "main.js": "/portfolio/static/js/main.8fca9106.js",
+    "main.js": "/portfolio/static/js/main.a769ac0e.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/portfolio/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/portfolio/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
     "static/media/uicons-solid-rounded-3CHVJWAY.eot": "/portfolio/static/media/uicons-solid-rounded-3CHVJWAY.db4b69f1f366dd7c3690.eot",
@@ -29,6 +29,8 @@
     "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/uicons-solid-straight-47DPGFQO.woff2": "/portfolio/static/media/uicons-solid-straight-47DPGFQO.4a03d91b191d27afc043.woff2",
+    "static/media/chocolate-new.jpg": "/portfolio/static/media/chocolate-new.35595931a4631019f4a0.jpg",
+    "static/media/chocolate.jpg": "/portfolio/static/media/chocolate.5826b8e6fe85f4bbba18.jpg",
     "static/media/news.jpg": "/portfolio/static/media/news.3a72ba67a8b11536b715.jpg",
     "static/media/mimino-new.jpg": "/portfolio/static/media/mimino-new.636b7c9a3a203cc90f02.jpg",
     "static/media/mimino.jpg": "/portfolio/static/media/mimino.3a50a68b0400b6552e27.jpg",
@@ -56,10 +58,10 @@
     "static/media/AnyConv.com__ArchitectsDaughter-Regular.woff": "/portfolio/static/media/AnyConv.com__ArchitectsDaughter-Regular.406639e51e84df7854f0.woff",
     "index.html": "/portfolio/index.html",
     "main.4714069f.css.map": "/portfolio/static/css/main.4714069f.css.map",
-    "main.8fca9106.js.map": "/portfolio/static/js/main.8fca9106.js.map"
+    "main.a769ac0e.js.map": "/portfolio/static/js/main.a769ac0e.js.map"
   },
   "entrypoints": [
     "static/css/main.4714069f.css",
-    "static/js/main.8fca9106.js"
+    "static/js/main.a769ac0e.js"
   ]
 }
