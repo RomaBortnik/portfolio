@@ -47,7 +47,7 @@ const Header = ({ onThemeChange }) => {
         <StyledHeader>
           <SectionContainer>
             <HeaderContainer>
-              <Logo href="/">&lt;Logo&gt;</Logo>
+              <Logo href="/">Portfolio</Logo>
 
               <HeaderFlexContainer>
                 <nav>

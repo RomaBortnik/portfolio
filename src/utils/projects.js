@@ -5,12 +5,14 @@ import mobileNews from '../images/Projects/Mobile/news-new.jpg';
 import mobileTaskpro from '../images/Projects/Mobile/taskpro-new.jpg';
 import mobilePhonebook from '../images/Projects/Mobile/phonebook-new.jpg';
 import mobileTweets from '../images/Projects/Mobile/tweets-new.jpg';
+import mobileChocolate from '../images/Projects/Mobile/chocolate-new.jpg';
 import desktopWebstudio from '../images/Projects/Desktop/webstudio.jpg';
 import desktopMimino from '../images/Projects/Desktop/mimino.jpg';
 import desktopNews from '../images/Projects/Desktop/news.jpg';
 import desktopTaskpro from '../images/Projects/Desktop/taskpro.jpg';
 import desktopPhonebook from '../images/Projects/Desktop/phonebook.jpg';
 import desktopTweets from '../images/Projects/Desktop/tweets.jpg';
+import desktopChocolate from '../images/Projects/Desktop/chocolate.jpg';
 import sprite from '../images/icons.svg';
 
 export const projects = [
@@ -95,7 +97,7 @@ export const projects = [
     desktopImage: desktopTaskpro,
     altText: 'Task Pro workspace',
     descr:
-      'Web application for organise work on your tasks. Users can create boards with cards of  tasks, choosing the priority and deadline for each task, edit their data, boards, cards, etc. It is possible to drag and drop tasks between columns. Users also can changed current theme and filterd cards by priority for each board.',
+      'Web application for organise work on your tasks. Users can create boards with cards of  tasks, choosing the priority and deadline for each task, edit their data, boards, cards, etc. It is possible to drag and drop tasks between columns. Users also can changed current theme and filtered cards by priority for each board.',
     technologies:
       'HTML, styled-components, JS, REST API, React, Redux, Node.js, MongoDB.',
     developedBy: 'Team',
@@ -172,6 +174,31 @@ export const projects = [
       {
         id: nanoid(),
         link: 'https://romabortnik.github.io/test-repo/',
+        icon: `${sprite}#icon-feed`,
+        name: 'Live page',
+      },
+    ],
+  },
+  {
+    id: nanoid(),
+    name: 'Simply Chocolate',
+    mobileImage: mobileChocolate,
+    desktopImage: desktopChocolate,
+    altText: 'Simply chocolate workspace',
+    descr:
+      'One-page web application. Users can read information about chocolate, check and buy our products, watch chocolate making video, leave feedback and subscribe to us.',
+    technologies: 'HTML, styled-components, JS, React.',
+    developedBy: 'Team',
+    media: [
+      {
+        id: nanoid(),
+        link: 'https://github.com/kozhushna/chocolate',
+        icon: `${sprite}#icon-github`,
+        name: 'GitHub',
+      },
+      {
+        id: nanoid(),
+        link: 'https://kozhushna.github.io/chocolate/',
         icon: `${sprite}#icon-feed`,
         name: 'Live page',
       },
